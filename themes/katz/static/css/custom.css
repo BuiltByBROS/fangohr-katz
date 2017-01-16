@@ -1,0 +1,176 @@
+
+@font-face {
+    font-family: Graphik;
+    font-weight: bold;
+    src: url("/fonts/Graphik-Semibold.otf") format("opentype");
+}
+@font-face {
+    font-family: Miller-TextBold;
+    font-weight: bold;
+    src: url("/fonts/Miller-TextBold.otf") format("opentype");
+}
+@font-face {
+    font-family: Miller-TextRoman;
+    src: url("/fonts/Miller-TextRoman.otf") format("opentype");
+}
+
+html, body {
+    height: 100%;
+}
+
+
+.main-screen {
+    min-height: 100%;
+    overflow-y: hidden; /* don't show content that exceeds my height */
+    height:auto !important; 
+    height: 100%; 
+}
+.cover {
+  color: #fff;
+}
+.menu {
+  color: #0000f2;
+}
+.cover-background {
+    background-color: #0000f2;
+    border: 10px solid white;
+
+}
+.menu-background {
+    background-color: #fff;
+    border: 10px solid #0000f2;
+
+}
+
+.main-screen-inner {
+    padding-top: 10px;
+    margin: 0 auto;
+    width: 1005px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.main-wrapper {
+  font-family: Graphik;
+  font-size: 56px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.23;
+  letter-spacing: -1.2px;
+}
+
+
+/* Base for label styling */
+[type="checkbox"]:not(:checked),
+[type="checkbox"]:checked {
+  position: absolute;
+  left: -9999px;
+}
+[type="checkbox"]:not(:checked) + label,
+[type="checkbox"]:checked + label {
+  position: relative;
+  padding-left: 51px;
+  cursor: pointer;
+}
+
+/* checkbox aspect */
+[type="checkbox"]:not(:checked) + label:before,
+[type="checkbox"]:checked + label:before {
+  content: '';
+  position: absolute;
+  left:-10px; top: 15px;
+  width: 36px; 
+  height: 36px;
+  
+  
+  border-radius: 2px;
+  box-shadow: inset 0 1px 3px rgba(0,0,0,.3)
+}
+p.menu [type="checkbox"]:not(:checked) + label:before,
+p.menu [type="checkbox"]:checked + label:before {
+ border: 2px solid #0000f2;
+ background: #fff;
+}
+p.cover [type="checkbox"]:not(:checked) + label:before,
+p.cover [type="checkbox"]:checked + label:before {
+  border: 2px solid #fff;
+  background: #0000f2;
+}
+/* checked mark aspect */
+[type="checkbox"]:not(:checked) + label:after,
+[type="checkbox"]:checked + label:after {
+  content: '✔';
+  position: absolute;
+  top: 17px; left: -7px;
+  font-size: 36px;
+  line-height: 0.9;
+  transition: all .2s;
+}
+
+p.cover [type="checkbox"]:not(:checked) + label:after,
+p.cover [type="checkbox"]:checked + label:after { 
+  color: #fff;
+}
+
+p.menu [type="checkbox"]:not(:checked) + label:after,
+p.menu [type="checkbox"]:checked + label:after {
+  color: #0000f2;
+}
+
+/* checked mark aspect changes */
+[type="checkbox"]:not(:checked) + label:after {
+  opacity: 0;
+  transform: scale(0);
+}
+[type="checkbox"]:checked + label:after {
+  opacity: 1;
+  transform: scale(1);
+}
+
+/* accessibility */
+[type="checkbox"]:checked:focus + label:before,
+[type="checkbox"]:not(:checked):focus + label:before {
+  border: 2px solid #eee;
+}
+
+/* hover style just for information */
+p.cover label:hover:before {
+  border: 2px solid #fff !important;
+}
+p.menu label:hover:before {
+  border: 2px solid #0000f2 !important;
+}
+.footer-menu {
+	font-family: Miller-TextRoman;
+	font-size: 16px;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	color: #0000f2;
+	line-height: 1.5;
+}
+.footer-menu-btn {
+	width: 77px;
+	height: 25px;
+  list-style-type: none;
+  display: inline-block;
+  margin: 0 auto;
+  text-align:center;
+	border: solid 1px #fff;
+  color:#0000f2;
+  padding-bottom: 18px;
+}
+.footer-menu-btn:hover {
+	border: solid 1px #0000f2;
+}
+.footer-menu-logo {
+  padding-bottom: 18px;
+  padding-left: 28px;
+  padding-bottom: 28px;
+}
+
+.footer-menu-nav {
+  padding-right:22px;
+  bottom:-20px;
+}

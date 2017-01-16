@@ -1,0 +1,33 @@
+{{ define "main" }}
+
+<div class="container-fluid main-screen menu-background">
+  <div class="main-screen-inner">
+    <div class="main-wrapper">
+      <div class="container-fluid">
+        <p class="menu">
+          <input type="checkbox" id="test1"/>
+          <label for="test1">Building & Interior Architecture</label>
+        </p>
+        <p class="menu">
+          <input type="checkbox" id="test2" checked="checked" />
+          <label for="test2">Renovation & Capital Improvement</label>
+        </p>
+        <p class="menu">
+          <input type="checkbox" id="test3" checked="checked" />
+          <label for="test3">Building Management Support</label>
+        </p>
+        <p class="menu">
+          <input type="checkbox" id="test4" checked="checked" />
+          <label for="test4">Zoning & Code Consultation</label>
+        </p>
+        <p class="menu">
+            <input type="checkbox" id="test5" checked="checked" />
+            <label for="test5">Peace of Mind</label>
+        </p>
+        
+      </div>
+    </div>
+  </div>
+  {{ partial "menu-footer" . }}
+</div>
+{{ end }}

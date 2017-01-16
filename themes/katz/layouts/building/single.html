@@ -1,0 +1,31 @@
+{{ define "main" }}
+<div id="background-carousel">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="item active" style="background-image:url(http://lorempixel.com/1200/800/food/1/)"></div>
+        <div class="item" style="background-image:url(http://lorempixel.com/1200/800/food/2/)"></div>
+        <div class="item" style="background-image:url(http://lorempixel.com/1200/800/food/4/)"></div>  
+      </div>
+    </div>
+</div>
+ 
+ 
+<div id="content-wrapper">
+<!-- PAGE CONTENT -->
+    <div class="container">
+        <div class="page-header"><p class="title">{{ .Title }}</p></div>
+        <div class="well"><p>{{ .Content }}</p>
+        </div><!-- End Well -->
+    </div><!-- End Container -->
+<!-- PAGE CONTENT -->
+</div>
+<div id="after-content">
+    <ul>
+        <li>stuff</li>
+        <li>very stuff</li>
+        <li>very stuff</li>
+        <li>more very stuff</li>
+        <li>more very stuff</li>
+    </ul>
+</div>
+{{ end }}
