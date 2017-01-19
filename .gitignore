@@ -1,0 +1,5 @@
+_site
+.sass-cache
+.jekyll-metadata
+old-hugo-site/
+*DS_Store

@@ -1,2 +1,0 @@
-# fangohr-katz
-Katz Architecture
