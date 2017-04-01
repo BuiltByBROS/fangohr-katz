@@ -39,5 +39,5 @@ slides:
 - {name: "Museo Del Bario", location: "New York City", thumbnail: 15.jpg, image: 15.jpg, credits: "Interior Design: Salvador Quiroz \n\ Exhibit Fabrication: Exhibitology  \n\ Builder: SurAmerica G.C. Corp. \n\ Photography: John VanAken", description: "Retrospective of the work of cinematographer, Gabriel Figueroa."}
 - {name: "Museo Del Bario", location: "New York City", thumbnail: 16.jpg, image: 16.jpg, credits: "Interior Design: Salvador Quiroz \n\ Exhibit Fabrication: Exhibitology  \n\ Builder: SurAmerica G.C. Corp. \n\ Photography: John VanAken", description: "Retrospective of the work of cinematographer, Gabriel Figueroa."}
 
-- {name: "Reverence Capital Partners", location: "New York City", thumbnail: 17.jpg, image: 17.jpg, credits: "", description: ""}
-- {name: "Reverence Capital Partners", location: "New York City", thumbnail: 18.jpg, image: 18.jpg, credits: "", description: ""}
+- {name: "Reverence Capital Partners", location: "New York City", thumbnail: 17.jpg, image: 17.jpg, credits: "Interior Design: Teresa Mastropierro \n\ Photography: David Joseph Photography", description: "Renovation and new conference room."}
+- {name: "Reverence Capital Partners", location: "New York City", thumbnail: 18.jpg, image: 18.jpg, credits: "Interior Design: Teresa Mastropierro \n\ Photography: David Joseph Photography", description: "Renovation and new conference room."}
