@@ -1,0 +1,81 @@
+.menu-footer {
+  color: _palette(_katz-primary);
+  font-family: Miller-TextRoman;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  font-size: 14px;
+  line-height: 1.29;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 19px;
+  @include respond-to(md) {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+}
+.menu-footer-logo {
+  background-color:#ccc;
+  background: url("../assets/images/logo-katz-blue.svg") no-repeat center center;
+  display: block;
+  width: 60px;
+  height: 37px;
+  margin-bottom: 13px;
+  margin-top: 6px;
+  float: left;
+  @include respond-to(sm) {
+    width: 48px;
+    height: 30px;
+    background-size: contain;
+    padding-right: 30px;
+    margin-top: 3px;
+  }
+  @include respond-to(md) {
+    width: 60px;
+    height: 37px;
+  }
+}
+.menu-footer-contact {
+  position: absolute;
+  right: 20px;
+  top: 58px;
+  @include respond-to(sm) {
+    top: 14px;
+  }
+  @include respond-to(md) {
+    top: 19px;
+  }
+}
+
+.menu-footer-tagline{
+  clear: both;
+  @include respond-to(sm) {
+    clear: none;
+    float:left;
+    margin-left:33px;
+  }
+}
+
+.footer-menu-btn {
+  width: 77px;
+  height: 25px;
+  list-style-type: none;
+  display: inline-block;
+  // margin: 0 auto;
+  text-align: center;
+  border: solid 1px _palette(_katz-primary);
+  color: _palette(_katz-primary);
+  margin-bottom: 15px;
+  padding-top: 2px;
+  cursor: pointer;
+  @include respond-to(md) {
+    width: 81px;
+    height: 25px;
+    padding-top: 0;
+  }
+}
+.footer-menu-btn:hover {
+  border: solid 1px _palette(_katz-primary);
+  text-decoration-style: none;
+}
