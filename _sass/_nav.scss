@@ -87,7 +87,10 @@
     bottom: 70px;
     padding: 6.5px 3px;
     z-index: 999999;
-    
+    @include respond-to(sm) {
+      bottom: 35px;
+    }
+
     &.white{
       background: rgba(256,256,256, .4);
     }
