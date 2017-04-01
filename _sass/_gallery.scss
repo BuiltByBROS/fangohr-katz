@@ -29,13 +29,18 @@
 .blue-filter{
     background: rgba(0, 0, 242, 0.65);
     opacity: .65;
+    z-index: 99999;
 }
 
 .grid-item{
     margin: 15px 0;
     position: relative;
     overflow: hidden;
-
+    
+    img{
+        filter: grayscale(100%);
+        -webkit-filter: grayscale(100%);
+    }
     .detail-tooltip{
         position: absolute;
         opacity:1;
@@ -68,6 +73,12 @@
             opacity:1;
             bottom:0;
         }
+
+        img{
+            filter: none;
+            -webkit-filter: none;
+        }
+
         .blue-filter{
             opacity: 0;
             transition: all 1s ease;
