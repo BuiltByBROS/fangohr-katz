@@ -3,12 +3,12 @@ subtitle: "Need help with a project? Leave your details & we’ll be in contact:
 formlabel: Your Contact Info
 
 services1:
-- Building Architecture
-- Interior Architecture
-- Renovation
-- Capital Improvement 
+- {name: Building Architecture, key: building-architecture }
+- {name: Interior Architecture, key: interior-architecture}
+- {name: Renovation, key: renovation}
+- {name: Capital Improvement , key: capital-improvement }
 services2:
-- Building Management Support
-- Historic Preservation
-- Code Consultation & Review
-- Building Architect of Record
+- {name: Building Management Support, key: building-management}
+- {name: Historic Preservation, key: historic-preservation}
+- {name: Code Consultation & Review, key: consultation}
+- {name: Building Architect of Record, key: building-architecture-record}
