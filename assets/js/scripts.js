@@ -14,6 +14,11 @@ $(document).ready(function () {
 
     });
 
+    // Move next when Section image is clicked
+    $('.topic-bkg').click(function () {
+        $.fn.fullpage.moveSectionDown();
+    });
+
     // Move around the menu items
     $('#menu .check-list').on('click', function (e) {
         e.preventDefault();
