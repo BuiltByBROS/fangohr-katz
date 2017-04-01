@@ -17,21 +17,116 @@ block_2:
 title_properties: Managed Properties
 slides:
 
-- {place: "New York, NY", info: "240 Centre Street", thumbnail: 1.jpg,image: 1.jpg}
-- {place: "New York, NY", info: "243 West End Avenue", thumbnail: 2.jpg,image: 2.jpg}
-- {place: "New York, NY", info: "46 West 95th Street", thumbnail: 3.jpg,image: 3.jpg}
-- {place: "New York, NY", info: "705/711 Greenwich Street", thumbnail: 4.jpg,image: 4.jpg}
-- {place: "New York, NY", info: "170 East 78th Street", thumbnail: 5.jpg,image: 5.jpg}
-- {place: "New York, NY", info: "El Museo Del Barrio", thumbnail: 6.jpg,image: 6.jpg}
-- {place: "New York, NY", info: "Gramercy Townhouse", thumbnail: 7.jpg,image: 7.jpg}
-- {place: "New York, NY", info: "107 West 25th Street", thumbnail: 8.jpg,image: 8.jpg}
-- {place: "New York, NY", info: "52 Thomas Street", thumbnail: 9.jpg,image: 9.jpg}
-- {place: "New York, NY", info: "Midtown Landmark Building Enlargement", thumbnail: 10.jpg,image: 10.jpg}
-- {place: "Bronx, NY", info: "860 Grand Councourse", thumbnail: 11.jpg,image: 11.jpg}
-- {place: "Brooklyn, NY", info: "111 Hicks Street", thumbnail: 12.jpg,image: 12.jpg}
-- {place: "New York, NY", info: "4 West 16th Street", thumbnail: 13.jpg,image: 13.jpg}
-- {place: "New York, NY", info: "27 Bleecker StreetY", thumbnail: 14.jpg,image: 14.jpg}
-- {place: "New York, NY", info: "147 West 22nd Street", thumbnail: 15.jpg,image: 15.jpg}
-- {place: "New York, NY", info: "12 West 18th Street", thumbnail: 16.jpg,image: 16.jpg}
-- {place: "New York, NY", info: "177 Duane Street", thumbnail: 17.jpg,image: 17.jpg}
-- {place: "New York, NY", info: "258 Broadway", thumbnail: 18.jpg,image: 18.jpg}
+- {place: "New York, NY", info: "240 Centre Street", thumbnail: property_thumb_1.jpg, image: property1.jpg, 
+	stats: "Name: Police Building \n\
+	Building Type: Residential Co-op, 55 units \n\
+	Services Provided: Building Architect Services"
+	description: "10-story 1923 Landmark District building designed by Carrere and Hastings, who also designed the New York Public Library. Gut renovation of lobby, new entry door and awning, design of new mailroom, sidewalk replacement, renovation of common halls and stairways, refurbishment of backyard access stair, design and installation of common backyard space including new stone deck and structural concrete retaining wall. " }
+	
+- {place: "New York, NY", info: "243 West End Avenue", thumbnail: property_thumb_2.jpg, image: property2.jpg
+	stats: "Building Type: Residential Co-op, 183 units \n\
+	Services Provided: Building Architect Services"
+	description: "10-story 1923 Landmark District building designed by Carrere and Hastings, who also designed the New York Public Library. Gut renovation of lobby, new entry door and awning, design of new mailroom, sidewalk replacement, renovation of common halls and stairways, refurbishment of backyard access stair, design and installation of common backyard space including new stone deck and structural concrete retaining wall. " }
+	
+- {place: "New York, NY", info: "46 West 95th Street", thumbnail: property_thumb_3.jpg, image: property3.jpg
+	stats: "Name: Police Building \n\
+	Building Type: Residential Co-op, 55 units \n\
+	Services Provided: Building Architect Services"
+	description: "10-story 1923 Landmark District building designed by Carrere and Hastings, who also designed the New York Public Library. Gut renovation of lobby, new entry door and awning, design of new mailroom, sidewalk replacement, renovation of common halls and stairways, refurbishment of backyard access stair, design and installation of common backyard space including new stone deck and structural concrete retaining wall. " }
+	
+- {place: "New York, NY", info: "705/711 Greenwich Street", thumbnail: property_thumb_4.jpg, image: property4.jpg
+	stats: "Name: Police Building \n\
+	Building Type: Residential Co-op, 55 units \n\
+	Services Provided: Building Architect Services"
+	description: "10-story 1923 Landmark District building designed by Carrere and Hastings, who also designed the New York Public Library. Gut renovation of lobby, new entry door and awning, design of new mailroom, sidewalk replacement, renovation of common halls and stairways, refurbishment of backyard access stair, design and installation of common backyard space including new stone deck and structural concrete retaining wall. " }
+	
+- {place: "New York, NY", info: "170 East 78th Street", thumbnail: property_thumb_5.jpg, image: property5.jpg
+	stats: "Name: Police Building \n\
+	Building Type: Residential Co-op, 55 units \n\
+	Services Provided: Building Architect Services"
+	description: "10-story 1923 Landmark District building designed by Carrere and Hastings, who also designed the New York Public Library. Gut renovation of lobby, new entry door and awning, design of new mailroom, sidewalk replacement, renovation of common halls and stairways, refurbishment of backyard access stair, design and installation of common backyard space including new stone deck and structural concrete retaining wall. " }
+	
+- {place: "New York, NY", info: "El Museo Del Barrio", thumbnail: property_thumb_6.jpg, image: property6.jpg
+	stats: "Name: Police Building \n\
+	Building Type: Residential Co-op, 55 units \n\
+	Services Provided: Building Architect Services"
+	description: "10-story 1923 Landmark District building designed by Carrere and Hastings, who also designed the New York Public Library. Gut renovation of lobby, new entry door and awning, design of new mailroom, sidewalk replacement, renovation of common halls and stairways, refurbishment of backyard access stair, design and installation of common backyard space including new stone deck and structural concrete retaining wall. " }
+	
+- {place: "New York, NY", info: "Gramercy Townhouse", thumbnail: property_thumb_7.jpg, image: property7.jpg
+	stats: "Name: Police Building \n\
+	Building Type: Residential Co-op, 55 units \n\
+	Services Provided: Building Architect Services"
+	description: "10-story 1923 Landmark District building designed by Carrere and Hastings, who also designed the New York Public Library. Gut renovation of lobby, new entry door and awning, design of new mailroom, sidewalk replacement, renovation of common halls and stairways, refurbishment of backyard access stair, design and installation of common backyard space including new stone deck and structural concrete retaining wall. " }
+	
+- {place: "New York, NY", info: "107 West 25th Street", thumbnail: property_thumb_8.jpg, image: property8.jpg
+	stats: "Name: Police Building \n\
+	Building Type: Residential Co-op, 55 units \n\
+	Services Provided: Building Architect Services"
+	description: "10-story 1923 Landmark District building designed by Carrere and Hastings, who also designed the New York Public Library. Gut renovation of lobby, new entry door and awning, design of new mailroom, sidewalk replacement, renovation of common halls and stairways, refurbishment of backyard access stair, design and installation of common backyard space including new stone deck and structural concrete retaining wall. " }
+	
+- {place: "New York, NY", info: "52 Thomas Street", thumbnail: property_thumb_9.jpg, image: property9.jpg
+	stats: "Name: Police Building \n\
+	Building Type: Residential Co-op, 55 units \n\
+	Services Provided: Building Architect Services"
+	description: "10-story 1923 Landmark District building designed by Carrere and Hastings, who also designed the New York Public Library. Gut renovation of lobby, new entry door and awning, design of new mailroom, sidewalk replacement, renovation of common halls and stairways, refurbishment of backyard access stair, design and installation of common backyard space including new stone deck and structural concrete retaining wall. " }
+	
+	
+- {place: "New York, NY", info: "Midtown Landmark Building Enlargement", thumbnail: property_thumb_10.jpg, image: property10.jpg
+	stats: "Name: Police Building \n\
+	Building Type: Residential Co-op, 55 units \n\
+	Services Provided: Building Architect Services"
+	description: "10-story 1923 Landmark District building designed by Carrere and Hastings, who also designed the New York Public Library. Gut renovation of lobby, new entry door and awning, design of new mailroom, sidewalk replacement, renovation of common halls and stairways, refurbishment of backyard access stair, design and installation of common backyard space including new stone deck and structural concrete retaining wall. " }
+	
+	
+- {place: "Bronx, NY", info: "860 Grand Councourse", thumbnail: property_thumb_11.jpg, image: property11.jpg
+	stats: "Name: Police Building \n\
+	Building Type: Residential Co-op, 55 units \n\
+	Services Provided: Building Architect Services"
+	description: "10-story 1923 Landmark District building designed by Carrere and Hastings, who also designed the New York Public Library. Gut renovation of lobby, new entry door and awning, design of new mailroom, sidewalk replacement, renovation of common halls and stairways, refurbishment of backyard access stair, design and installation of common backyard space including new stone deck and structural concrete retaining wall. " }
+	
+	
+- {place: "Brooklyn, NY", info: "111 Hicks Street", thumbnail: property_thumb_12.jpg, image: property12.jpg
+	stats: "Name: Police Building \n\
+	Building Type: Residential Co-op, 55 units \n\
+	Services Provided: Building Architect Services"
+	description: "10-story 1923 Landmark District building designed by Carrere and Hastings, who also designed the New York Public Library. Gut renovation of lobby, new entry door and awning, design of new mailroom, sidewalk replacement, renovation of common halls and stairways, refurbishment of backyard access stair, design and installation of common backyard space including new stone deck and structural concrete retaining wall. " }
+	
+	
+- {place: "New York, NY", info: "4 West 16th Street", thumbnail: property_thumb_13.jpg, image: property13.jpg	
+	stats: "Name: Police Building \n\
+	Building Type: Residential Co-op, 55 units \n\
+	Services Provided: Building Architect Services"
+	description: "10-story 1923 Landmark District building designed by Carrere and Hastings, who also designed the New York Public Library. Gut renovation of lobby, new entry door and awning, design of new mailroom, sidewalk replacement, renovation of common halls and stairways, refurbishment of backyard access stair, design and installation of common backyard space including new stone deck and structural concrete retaining wall. " }
+	
+	
+- {place: "New York, NY", info: "27 Bleecker StreetY", thumbnail: property_thumb_14.jpg, image: property14.jpg
+	stats: "Name: Police Building \n\
+	Building Type: Residential Co-op, 55 units \n\
+	Services Provided: Building Architect Services"
+	description: "10-story 1923 Landmark District building designed by Carrere and Hastings, who also designed the New York Public Library. Gut renovation of lobby, new entry door and awning, design of new mailroom, sidewalk replacement, renovation of common halls and stairways, refurbishment of backyard access stair, design and installation of common backyard space including new stone deck and structural concrete retaining wall. " }
+	
+	
+- {place: "New York, NY", info: "147 West 22nd Street", thumbnail: property_thumb_15.jpg, image: property15.jpg
+	stats:"Name: Police Building \n\
+	Building Type: Residential Co-op, 55 units \n\
+	Services Provided: Building Architect Services"
+	description: "10-story 1923 Landmark District building designed by Carrere and Hastings, who also designed the New York Public Library. Gut renovation of lobby, new entry door and awning, design of new mailroom, sidewalk replacement, renovation of common halls and stairways, refurbishment of backyard access stair, design and installation of common backyard space including new stone deck and structural concrete retaining wall. " }
+	
+- {place: "New York, NY", info: "12 West 18th Street", thumbnail: property_thumb_16.jpg, image: property16.jpg
+	stats: "Name: Police Building \n\
+	Building Type: Residential Co-op, 55 units \n\
+	Services Provided: Building Architect Services"
+	description: "10-story 1923 Landmark District building designed by Carrere and Hastings, who also designed the New York Public Library. Gut renovation of lobby, new entry door and awning, design of new mailroom, sidewalk replacement, renovation of common halls and stairways, refurbishment of backyard access stair, design and installation of common backyard space including new stone deck and structural concrete retaining wall. " }
+	
+- {place: "New York, NY", info: "177 Duane Street", thumbnail: property_thumb_17.jpg, image: property17.jpg
+	stats: "Name: Police Building \n\
+	Building Type: Residential Co-op, 55 units \n\
+	Services Provided: Building Architect Services"
+	description: "10-story 1923 Landmark District building designed by Carrere and Hastings, who also designed the New York Public Library. Gut renovation of lobby, new entry door and awning, design of new mailroom, sidewalk replacement, renovation of common halls and stairways, refurbishment of backyard access stair, design and installation of common backyard space including new stone deck and structural concrete retaining wall. " }
+	
+- {place: "New York, NY", info: "258 Broadway", thumbnail: property_thumb_18.jpg, image: property18.jpg
+	stats: "Name: Police Building \n\
+	Building Type: Residential Co-op, 55 units \n\
+	Services Provided: Building Architect Services"
+	description: "10-story 1923 Landmark District building designed by Carrere and Hastings, who also designed the New York Public Library. Gut renovation of lobby, new entry door and awning, design of new mailroom, sidewalk replacement, renovation of common halls and stairways, refurbishment of backyard access stair, design and installation of common backyard space including new stone deck and structural concrete retaining wall. " }
+	
