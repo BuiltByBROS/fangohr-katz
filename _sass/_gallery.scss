@@ -58,6 +58,9 @@
         @include respond-to(sm) {
             font-size: 14px;
         }
+    .detail-tooltip-location{
+        font-family: Miller;
+        } 
     }
 
     .blue-filter{
