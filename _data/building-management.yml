@@ -18,24 +18,18 @@ title_properties: Managed Properties
 slides:
 
 - {place: "New York, NY", info: "240 Centre Street", thumbnail: property_thumb_1.jpg, image: property1.jpg, 
-	stats: "Name: Police Building \n\
-	Building Type: Residential Co-op, 55 units \n\
-	Services Provided: Building Architect Services",
-	description: "10-story 1923 Landmark District building designed by Carrere and Hastings, who also designed the New York Public Library. Gut renovation of lobby, new entry door and awning, design of new mailroom, sidewalk replacement, renovation of common halls and stairways, refurbishment of backyard access stair, design and installation of common backyard space including new stone deck and structural concrete retaining wall." }
+	stats: "Name: Police Building \n\ Building Type: Residential Co-op, 55 units \n\ Services Provided: Building Architect Services", description: "10-story 1923 Landmark District building designed by Carrere and Hastings, who also designed the New York Public Library. Gut renovation of lobby, new entry door and awning, design of new mailroom, sidewalk replacement, renovation of common halls and stairways, refurbishment of backyard access stair, design and installation of common backyard space including new stone deck and structural concrete retaining wall."}
+
 - {place: "New York, NY", info: "243 West End Avenue", thumbnail: property_thumb_2.jpg, image: property2.jpg
-	stats: "Building Type: Residential Co-op, 183 units \n\
-	Services Provided: Building Architect Services",
-	description: "15-story 1925 Landmark District building designed by Emery Roth. Design and construction review services on behalf of the Board to assess proposed Shareholder renovation work for code compliance and impact on building infrastructure." }
+	stats: "Building Type: Residential Co-op, 183 units \n\ Services Provided: Building Architect Services", description: "15-story 1925 Landmark District building designed by Emery Roth. Design and construction review services on behalf of the Board to assess proposed Shareholder renovation work for code compliance and impact on building infrastructure." }
+
 - {place: "New York, NY", info: "46 West 95th Street", thumbnail: property_thumb_3.jpg, image: property3.jpg
 	stats: "
-	Building Type: Residential Co-op, 36 units\n\
-	Services Provided: Full-service Architectural Design and Building Architect Services ",
+	Building Type: Residential Co-op, 36 units \n\ Services Provided: Full-service Architectural Design and Building Architect Services ",
 	description: "10-story 1923 Landmark District building designed by Carrere and Hastings, who also designed the New York Public Library. Gut renovation of lobby, new entry door and awning, design of new mailroom, sidewalk replacement, renovation of common halls and stairways, refurbishment of backyard access stair, design and installation of common backyard space including new stone deck and structural concrete retaining wall." }	
 	
 - {place: "New York, NY", info: "705/711 Greenwich Street", thumbnail: property_thumb_4.jpg, image: property4.jpg
-	stats: "Name: Police Building \n\
-	Building Type: Residential Co-op, 55 units \n\
-	Services Provided: Building Architect Services",
+	stats: "Name: Police Building \n\ Building Type: Residential Co-op, 55 units \n\ Services Provided: Building Architect Services",
 	description: "10-story 1923 Landmark District building designed by Carrere and Hastings, who also designed the New York Public Library. Gut renovation of lobby, new entry door and awning, design of new mailroom, sidewalk replacement, renovation of common halls and stairways, refurbishment of backyard access stair, design and installation of common backyard space including new stone deck and structural concrete retaining wall. " }
 	
 - {place: "New York, NY", info: "170 East 78th Street", thumbnail: property_thumb_5.jpg, image: property5.jpg
