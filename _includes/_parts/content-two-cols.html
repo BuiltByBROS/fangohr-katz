@@ -17,5 +17,9 @@
                 </div>
             </div>
         </div>
-        {% include _parts/nav-down.html %}
+        {% if include.gomenu %}
+            {% include _parts/back-to-menu.html %}
+        {% else %}
+            {% include _parts/nav-down.html %}
+        {% endif %}
 </div>
