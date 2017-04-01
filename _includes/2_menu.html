@@ -1,0 +1,11 @@
+<section id="menu" class="container-fluid">
+    <ul class="menu-ul">
+    {% for item in site.data.nav.menu %}
+    <li class="check-list" data-target="topic-{{ item.topic }}">
+        <input type="checkbox" class="checkbox-topic-{{ item.topic }}">
+        <label for="{{ item.url }}" class="item-title">{{ item.name }}</label>
+    </li>
+    {% endfor %}
+    </ul> 
+
+</section>

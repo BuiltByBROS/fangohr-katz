@@ -1,0 +1,21 @@
+<div class="topic topic-{{include.topic-class}} container-fluid">
+    
+        <h2 class="font-title hidden-xs-down">{{include.data.title}}</h2>
+        <div class="text-content">
+            <div class="row">
+                <div class="col-md-4">
+                    <h3 class="font-subtitle">{{include.data.title_1}}</h3>
+                    <p class="font-content p-content">{{include.data.block_1}}</p>
+                </div>
+                <div class="col-md-4">
+                    <h3 class="font-subtitle">{{include.data.title_2}}</h3>
+                    <ul>
+                        {% for item in include.data.block_2 %}
+                        <li class="font-content">{{item}}</li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+        </div>
+        {% include _parts/nav-down.html %}
+</div>

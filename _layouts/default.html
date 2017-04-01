@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+  {% include _parts/head.html %}
+  <body>
+
+    {% include _parts/header.html %}
+    <section id="wrapper">
+      
+      <div class="topic topic-home topic-cover cover">{% include 1_cover.html %}</div>
+      <div class="topic topic-home menu">{% include 2_menu.html %}</div>
+      
+      {% include 3_building-interior.html topic-class="building-interior"  %}
+      {% include 4_renovation.html topic-class="renovation" %}
+      {% include 5_building-management.html topic-class="building-management" %}
+      {% include 6_zoning.html topic-class="zoning" %}
+      {% include 7_peace.html topic-class="peace" %}
+      {% include 8_contact.html topic-class="contact" %}
+
+
+    </section>
+
+    <!--{% include footer.html %}-->
+
+    <!-- JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha256-+kIbbrvS+0dNOjhmQJzmwe/RILR/8lb/+4+PUNVW09k=" crossorigin="anonymous"></script>
+    <script src="{{ site.url }}{{ site.baseurl }}/assets/js/fullpage.min.js"></script>
+    <script src="{{ site.url }}{{ site.baseurl }}/assets/js/scripts.js"></script>
+  </body>
+</html>

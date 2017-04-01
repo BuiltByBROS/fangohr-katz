@@ -1,0 +1,30 @@
+.text-content{
+    font-family: Miller-TextRoman;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: _palette(_katz-primary);
+
+    li {
+        list-style-type: none;
+        margin-left: -40px;
+    
+        &:before {
+            content: '— ';
+        }
+    }
+}
+
+.font-subtitle{
+    font-family: Miller-Text;
+	font-size: 16px;
+	font-weight: bold;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: 1.19;
+	letter-spacing: normal;
+    color: _palette(_katz-primary);
+}

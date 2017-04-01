@@ -1,0 +1,52 @@
+<div class="topic topic-hidden topic-{{include.topic-class}} menu">{% include 2_menu.html %}</div>
+{% assign cover_img = site.url | append: site.baseurl | append: site.data.building-interior.image %}
+
+{% include _parts/topic-cover.html 
+    topic-class=include.topic-class
+    title=site.data.building-interior.title
+    image= cover_img
+%}
+
+{% include _parts/content-two-cols.html 
+    topic-class=include.topic-class
+    data=site.data.building-interior
+%}
+
+
+<div class="topic topic-{{include.topic-class}} container-fluid">
+    
+    <h2 class="font-title hidden-xs-down">{{site.data.building-interior.title}}</h2>
+    <div class="text-content">
+            <div class="row">
+                <!-- Gallery -->
+                {% for item in site.data.building-interior.slides %}
+                <div class="col-6 col-sm-2">
+                    <div class="grid-item" onclick="moveTo(5, {{ forloop.index }},'.overlap-gallery', true )">
+                        <span class="blue-filter"></span>
+                        <img src="{{ site.url }}{{ site.baseurl }}/assets/images/building-interior/slides/{{{item.thumbnail}}" alt="{item.info}}" class="img-fluid property-image">
+                        <div class="detail-tooltip">{{item.info}}</div>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+
+             <!-- Slideshow -->
+    </div>
+     {% include _parts/back-to-menu.html %}
+</div>
+
+<div class="topic topic-{{include.topic-class}} container-fluid gallery-container ignore">
+
+    <div class="overlap-gallery container-fluid hidden">  
+        {% for item in site.data.building-interior.slides %}
+            <div class="slide">
+                <img src="{{ site.url }}{{ site.baseurl }}/assets/images/building-interior/slides/{{{item.thumbnail}}" alt="{item.info}}" class="img-fluid property-image">
+            </div>
+        {% endfor %}
+    </div>
+    <div class="navigation-down text-center" onclick="closeGallery(this, 4)">
+        <span  class="back-to-menu white">
+            <img src="{{ site.url }}{{ site.baseurl }}/assets/images/close-blue.svg" alt="Menu">
+        </span>
+    </div>
+</div>

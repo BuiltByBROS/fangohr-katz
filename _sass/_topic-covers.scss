@@ -1,0 +1,50 @@
+.topic{
+    @include respond-to(sm) {
+        min-height: 100vh;
+    }
+}
+
+.topic-hidden{
+    display: none!important;
+    opacity: 0!important;
+}
+
+.topic-bkg{
+    background-size: cover!important;
+}
+.font-title{
+  top: 20px;
+  position: absolute;
+  font-family: Graphik;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.17;
+  // @include respond-to(sm) {
+  //   font-size: 48px;
+  // }
+  @include respond-to(md) {
+    font-size: 48px;
+    line-height: 1.23;
+    letter-spacing: -1.2px;
+  }
+  @include respond-to(lg) {
+    font-size: 56px;
+  }
+  color: _palette(_katz-primary);
+}
+
+.font-title {
+  letter-spacing: -1.2px;
+  margin-bottom: 40px;
+  padding:0;
+  @include respond-to(md) {
+    letter-spacing: auto;
+    margin-bottom: auto;
+  }
+}
+
+
+.font-title-item:hover {
+  opacity: .8;
+}

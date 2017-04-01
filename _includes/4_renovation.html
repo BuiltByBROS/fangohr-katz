@@ -1,0 +1,22 @@
+
+<div class="topic topic-hidden topic-{{include.topic-class}} menu">{% include 2_menu.html %}</div>
+{% assign cover_img = site.url | append: site.baseurl | append: site.data.renovation.image %}
+
+{% include _parts/topic-cover.html 
+    topic-class=include.topic-class
+    title=site.data.renovation.title
+    image= cover_img
+%}
+
+{% include _parts/content-two-cols.html 
+    topic-class=include.topic-class
+    data=site.data.renovation
+%}
+
+<div class="topic topic-{{include.topic-class}} container-fluid">
+    <div class="row">
+
+        {% include _parts/back-to-menu.html %}
+        
+    </div>
+</div>
