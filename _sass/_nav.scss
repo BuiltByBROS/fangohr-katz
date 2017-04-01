@@ -94,3 +94,11 @@
   }
 
 }
+
+#menu, #cover {
+  height: 100%;
+  padding-top:28px;
+  @include respond-to(md) {
+    padding-top:35px;
+  }
+}
