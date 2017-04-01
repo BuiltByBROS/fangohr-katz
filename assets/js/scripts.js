@@ -7,7 +7,7 @@ $(document).ready(function () {
 
 
     // Remove the cover
-    $('.topic-cover').click(function () {
+    $('.cover').on('click', function () {
         $.fn.fullpage.moveSectionDown();
         // $('.topic-cover').remove();
         // $.fn.fullpage.reBuild;
@@ -27,7 +27,7 @@ $(document).ready(function () {
         check('.checkbox-' + topicClass);
 
         setTimeout(function () {
-            $('.topic-cover').remove();
+            // $('.topic-cover').remove();
             $('.topic').addClass('topic-hidden');
             $(".menu." + topicClass).removeClass('topic-hidden');
             $('.' + topicClass).removeClass('topic-hidden');
@@ -35,7 +35,8 @@ $(document).ready(function () {
             $.fn.fullpage.destroy('all');
 
             initFP('.' + topicClass);
-            $.fn.fullpage.moveTo(2);
+            $.fn.fullpage.silentMoveTo(2);
+            $.fn.fullpage.moveTo(3);
 
         }, 300);
 
