@@ -15,21 +15,21 @@ block_2:
 
 slides:
 
-- {info: "Carhartt WIP Flagship Store <br>New York City", thumbnail: 1.jpg,image: 1.jpg}
-- {info: "Carhartt WIP Flagship Store <br>New York City", thumbnail: 2.jpg,image: 2.jpg}
-- {info: "Sundaram Tagore Gallery<br>New York City", thumbnail: 3.jpg,image: 3.jpg}
-- {info: "Sundaram Tagore Gallery<br>New York City", thumbnail: 4.jpg,image: 4.jpg}
-- {info: "Hudson Square Penthouse Combination<br>New York City", thumbnail: 5.jpg,image: 5.jpg}
-- {info: "Hudson Square Penthouse Combination<br>New York City", thumbnail: 6.jpg,image: 6.jpg}
-- {info: "True Religion Showroom<br>New York City", thumbnail: 7.jpg,image: 7.jpg}
-- {info: "True Religion Showroom<br>New York City", thumbnail: 8.jpg,image: 8.jpg}
-- {info: "Hotel St. George Lobby<br>Brooklyn, New York", thumbnail: 9.jpg,image: 9.jpg}
-- {info: "Hotel St. George Lobby<br>Brooklyn, New York", thumbnail: 10.jpg,image: 10.jpg}
-- {info: "Park Avenue Kitchen<br>New York City", thumbnail: 11.jpg,image: 11.jpg}
-- {info: "Park Avenue Kitchen<br>New York City", thumbnail: 12.jpg,image: 12.jpg}
-- {info: "Long Island City Penthouse Combination<br>Queens, NY", thumbnail: 13.jpg,image: 13.jpg}
-- {info: "Long Island City Penthouse Combination<br>Queens, NY", thumbnail: 14.jpg,image: 14.jpg}
-- {info: "Museo Del Bario<br>New York City", thumbnail: 15.jpg,image: 15.jpg}
-- {info: "Museo Del Bario<br>New York City", thumbnail: 16.jpg,image: 16.jpg}
-- {info: "Reverence Capital Partners<br>New York City", thumbnail: 17.jpg,image: 17.jpg}
-- {info: "Reverence Capital Partners<br>New York City", thumbnail: 18.jpg,image: 18.jpg}
+- {name: "Carhartt WIP Flagship Store", location: "New York City", thumbnail: 1.jpg,image: 1.jpg}
+- {name: "Carhartt WIP Flagship Store ", location: "New York City", thumbnail: 2.jpg,image: 2.jpg}
+- {name: "Sundaram Tagore Gallery", location: "New York City", thumbnail: 3.jpg,image: 3.jpg}
+- {name: "Sundaram Tagore Gallery", location: "New York City", thumbnail: 4.jpg,image: 4.jpg}
+- {name: "Hudson Square Penthouse Combination", location: "New York City", thumbnail: 5.jpg,image: 5.jpg}
+- {name: "Hudson Square Penthouse Combination", location: "New York City", thumbnail: 6.jpg,image: 6.jpg}
+- {name: "True Religion Showroom", location: "New York City", thumbnail: 7.jpg,image: 7.jpg}
+- {name: "True Religion Showroom", location: "New York City", thumbnail: 8.jpg,image: 8.jpg}
+- {name: "Hotel St. George Lobby", location: "Brooklyn, New York", thumbnail: 9.jpg,image: 9.jpg}
+- {name: "Hotel St. George Lobby", location: "Brooklyn, New York", thumbnail: 10.jpg,image: 10.jpg}
+- {name: "Park Avenue Kitchen", location: "New York City", thumbnail: 11.jpg,image: 11.jpg}
+- {name: "Park Avenue Kitchen", location: "New York City", thumbnail: 12.jpg,image: 12.jpg}
+- {name: "Long Island City Penthouse Combination", location: "Queens, NY", thumbnail: 13.jpg,image: 13.jpg}
+- {name: "Long Island City Penthouse Combination", location: "Queens, NY", thumbnail: 14.jpg,image: 14.jpg}
+- {name: "Museo Del Bario", location: "New York City", thumbnail: 15.jpg,image: 15.jpg}
+- {name: "Museo Del Bario", location: "New York City", thumbnail: 16.jpg,image: 16.jpg}
+- {name: "Reverence Capital Partners", location: "New York City", thumbnail: 17.jpg,image: 17.jpg}
+- {name: "Reverence Capital Partners", location: "New York City", thumbnail: 18.jpg,image: 18.jpg}
