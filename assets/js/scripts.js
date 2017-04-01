@@ -163,9 +163,6 @@ function initFP(topicClass = '.topic') {
             if(destinationToIgnore){
                 var destination = (direction === 'down') ? nextIndex + 1 : nextIndex - 1
                 return false;
-                // $.fn.fullpage.moveTo(destination); doesnt work
-                // $.fn.fullpage.silentMoveTo(1);
-                
             }
         },
         afterLoad: function (anchorLink, index) {
@@ -174,7 +171,9 @@ function initFP(topicClass = '.topic') {
         afterRender: function () { },
         afterResize: function () { },
         afterResponsive: function (isResponsive) { },
-        afterSlideLoad: function (anchorLink, index, slideAnchor, slideIndex) { },
+        afterSlideLoad: function (anchorLink, index, slideAnchor, slideIndex) {
+            
+         },
         onSlideLeave: function (anchorLink, index, slideIndex, direction, nextSlideIndex) { }
 
     });
