@@ -17,6 +17,7 @@ slides:
 
 - {name: "Carhartt WIP Flagship Store", location: "New York City", thumbnail: 1.jpg, image: 1.jpg, credits: "MEP Engineer	: Mottola Rini Engineers PC \n\ Structural Engineer: FMO Engineering PC \n\ Builder: James M Barb Construction Inc.", description: "Gut renovation of Soho Landmark district retail shop. In association with Andrea Caputo Architecture."}
 - {name: "Carhartt WIP Flagship Store", location: "New York City", thumbnail: 2.jpg, image: 2.jpg, credits: "MEP Engineer	: Mottola Rini Engineers PC \n\ Structural Engineer: FMO Engineering PC \n\ Builder: James M Barb Construction Inc.", description: "Gut renovation of Soho Landmark district retail shop. In association with Andrea Caputo Architecture."}
+
 - {name: "Sundaram Tagore Gallery", location: "New York City", thumbnail: 3.jpg, image: 3.jpg, credits: "MStructural Engineer: H2 Consulting \n\ MEP Engineer: Mariano Molina Consulting Engineers \n\ Builder: Walker Ridge Construction \n\ Photography: Thomas Leech", description: "Gut Renovation from taxi garage to 4000 SF Chelsea Gallery."}
 - {name: "Sundaram Tagore Gallery", location: "New York City", thumbnail: 4.jpg, image: 4.jpg, credits: "Structural Engineer: H2 Consulting \n\ MEP Engineer: Mariano Molina Consulting Engineers \n\ Builder: Walker Ridge Construction \n\ Photography: Thomas Leech", description: "Gut Renovation from taxi garage to 4000 SF Chelsea Gallery."}
 
@@ -32,11 +33,11 @@ slides:
 - {name: "Park Avenue Kitchen", location: "New York City", thumbnail: 11.jpg, image: 11.jpg, credits: "Interior Design: Mario Buatta \n\ MEP Engineer: P.A. Collins Consulting Engineers \n\ Builder: SilverLining Interiors \n\ Photography: John Bartlestone", description: "Pre-war gut renovation and expansion."}
 - {name: "Park Avenue Kitchen", location: "New York City", thumbnail: 12.jpg, image: 12.jpg, credits: "Interior Design: Mario Buatta \n\ MEP Engineer: P.A. Collins Consulting Engineers \n\ Builder: SilverLining Interiors \n\ Photography: John Bartlestone", description: "Pre-war gut renovation and expansion."}
 
-- {name: "Long Island City Penthouse", location: "Queens, NY", thumbnail: 13.jpg, image: 13.jpg, credits: "", description: ""}
-- {name: "Long Island City Penthouse", location: "Queens, NY", thumbnail: 14.jpg, image: 14.jpg, credits: "", description: ""}
-- {name: "Museo Del Bario", location: "New York City", thumbnail: 15.jpg, image: 15.jpg, credits: "", description: ""}
-- {name: "Museo Del Bario", location: "New York City", thumbnail: 16.jpg, image: 16.jpg, credits: "", description: ""}
+- {name: "Long Island City Penthouse", location: "Queens, NY", thumbnail: 13.jpg, image: 13.jpg, credits: "MEP Engineer: Lilker Associates \n\ Builder: Coolmore Construction \n\ Photography: John Bartlestone", description: "Combination and renovation of two adjacent penthouse apartments."}
+- {name: "Long Island City Penthouse", location: "Queens, NY", thumbnail: 14.jpg, image: 14.jpg, credits: "MEP Engineer: Lilker Associates \n\ Builder: Coolmore Construction \n\ Photography: John Bartlestone", description: "Combination and renovation of two adjacent penthouse apartments."}
+
+- {name: "Museo Del Bario", location: "New York City", thumbnail: 15.jpg, image: 15.jpg, credits: "Interior Design: Salvador Quiroz \n\ Exhibit Fabrication: Exhibitology  \n\ Builder: SurAmerica G.C. Corp. \n\ Photography: John VanAken", description: "Retrospective of the work of cinematographer, Gabriel Figueroa."}
+- {name: "Museo Del Bario", location: "New York City", thumbnail: 16.jpg, image: 16.jpg, credits: "Interior Design: Salvador Quiroz \n\ Exhibit Fabrication: Exhibitology  \n\ Builder: SurAmerica G.C. Corp. \n\ Photography: John VanAken", description: "Retrospective of the work of cinematographer, Gabriel Figueroa."}
+
 - {name: "Reverence Capital Partners", location: "New York City", thumbnail: 17.jpg, image: 17.jpg, credits: "", description: ""}
 - {name: "Reverence Capital Partners", location: "New York City", thumbnail: 18.jpg, image: 18.jpg, credits: "", description: ""}
-
-
