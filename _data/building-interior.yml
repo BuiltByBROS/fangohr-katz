@@ -15,8 +15,8 @@ block_2:
 
 slides:
 
-- {name: "Carhartt WIP Flagship Store", location: "New York City", thumbnail: 1.jpg,image: 1.jpg, credits: "", description: ""}
-- {name: "Carhartt WIP Flagship Store ", location: "New York City", thumbnail: 2.jpg,image: 2.jpg, credits: "", description: ""}
+- {name: "Carhartt WIP Flagship Store", location: "New York City", thumbnail: 1.jpg,image: 1.jpg, credits: "MEP Engineer	 		Mottola Rini Engineers PC \n\Structural Engineer  	FMO Engineering PC \n\Builder James M Barb Construction Inc.", description: "Gut renovation of Soho Landmark district retail shop. In association with Andrea Caputo Architecture."}
+- {name: "Carhartt WIP Flagship Store ", location: "New York City", thumbnail: 2.jpg,image: 2.jpg, credits: "", description: "Gut renovation of Soho Landmark district retail shop. In association with Andrea Caputo Architecture."}
 - {name: "Sundaram Tagore Gallery", location: "New York City", thumbnail: 3.jpg,image: 3.jpg, credits: "", description: ""}
 - {name: "Sundaram Tagore Gallery", location: "New York City", thumbnail: 4.jpg,image: 4.jpg, credits: "", description: ""}
 - {name: "Hudson Square Penthouse Combination", location: "New York City", thumbnail: 5.jpg,image: 5.jpg, credits: "", description: ""}
