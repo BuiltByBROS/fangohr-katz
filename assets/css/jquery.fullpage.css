@@ -60,11 +60,11 @@ html.fp-enabled,
     float: left;
     position: relative;
 }
-.fp-controlArrow {
-    -webkit-user-select: none; /* webkit (safari, chrome) browsers */
-    -moz-user-select: none; /* mozilla browsers */
-    -khtml-user-select: none; /* webkit (konqueror) browsers */
-    -ms-user-select: none; /* IE10+ */
+/*.fp-controlArrow {
+    -webkit-user-select: none; /* webkit (safari, chrome) browsers *!/
+    -moz-user-select: none; /* mozilla browsers *!/
+    -khtml-user-select: none; /* webkit (konqueror) browsers *!/
+    -ms-user-select: none; /* IE10+ *!/
     position: absolute;
     z-index: 4;
     top: 50%;
@@ -87,7 +87,32 @@ html.fp-enabled,
     right: 15px;
     border-width: 38.5px 0 38.5px 34px;
     border-color: transparent transparent transparent #fff;
+}*/
+.fp-controlArrow {
+    -webkit-user-select: none; /* webkit (safari, chrome) browsers */
+    -moz-user-select: none; /* mozilla browsers */
+    -khtml-user-select: none; /* webkit (konqueror) browsers */
+    -ms-user-select: none; /* IE10+ */
+    position: absolute;
+    z-index: 4;
+    top: 0%;
+    cursor: pointer;
+    height: 100%;
+    width: 20%;
 }
+.fp-controlArrow.fp-prev:hover{
+	background: url('{{ site.url }}{{ site.baseurl }}/assets/images/carousel/arrow-left.svg') no-repeat center;
+	cursor: pointer;
+}
+.fp-controlArrow.fp-next {
+    left: 75%;
+    /*background-image: {{ site.url }}{{ site.baseurl }}/assets/images/close-white.svg;*/    
+}
+.fp-controlArrow.fp-next:hover {
+	background: url('{{ site.url }}{{ site.baseurl }}/assets/images/carousel/arrow-right.svg') no-repeat center;
+	cursor: pointer;
+}
+
 .fp-scrollable {
     overflow: hidden;
     position: relative;
