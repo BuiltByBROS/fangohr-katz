@@ -91,3 +91,39 @@
         }
     }
 }
+
+
+
+/*messing around with arrows in slideshow*/
+
+.fp-controlArrow {
+    -webkit-user-select: none; /* webkit (safari, chrome) browsers */
+    -moz-user-select: none; /* mozilla browsers */
+    -khtml-user-select: none; /* webkit (konqueror) browsers */
+    -ms-user-select: none; /* IE10+ */
+    position: absolute;
+    z-index: 4;
+    top: 0%;
+    cursor: pointer;
+    width: 25%;
+    height: 100%;
+    border: 1px solid black;
+}
+.fp-controlArrow.fp-prev {
+    cursor: w-resize;
+    /*background-image: {{ site.url }}{{ site.baseurl }}/assets/images/arrow-left.svg;*/
+    
+    background: red url('/fangohr-katz/assets/images/carousel/arrow-right.svg/arrow-left.svg') no-repeat center;
+}
+.fp-controlArrow.fp-next {
+    left: 75%;
+    cursor: e-resize;
+    
+}
+
+.fp-controlArrow.fp-next {
+	/*background-image: {{ site.url }}{{ site.baseurl }}/assets/images/close-white.svg;*/
+	background-image: url('{{ site.url }}{{ site.baseurl }}/assets/images/arrow-right.svg');
+}
+
+
