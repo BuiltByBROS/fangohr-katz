@@ -87,7 +87,7 @@ function moveSectionDown() {
 }
 
 function moveToMenu() {
-    $.fn.fullpage.moveTo(2);
+    $.fn.fullpage.moveTo('#menu');
 }
 
 function initFP(topicClass = '.topic') {
@@ -101,7 +101,7 @@ function initFP(topicClass = '.topic') {
         navigation: false,
         navigationPosition: 'right',
         navigationTooltips: ['firstSlide', 'secondSlide'],
-        showActiveTooltip: false,
+        showActiveTooltip: true,
         slidesNavigation: false,
         slidesNavPosition: 'bottom',
 
