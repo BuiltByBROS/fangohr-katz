@@ -105,25 +105,18 @@
     z-index: 4;
     top: 0%;
     cursor: pointer;
-    width: 25%;
     height: 100%;
-    border: 1px solid black;
+    width: 20%;
 }
-.fp-controlArrow.fp-prev {
-    cursor: w-resize;
-    /*background-image: {{ site.url }}{{ site.baseurl }}/assets/images/arrow-left.svg;*/
-    
-    background: red url('/fangohr-katz/assets/images/carousel/arrow-right.svg/arrow-left.svg') no-repeat center;
+.fp-controlArrow.fp-prev:hover{
+	background: url('{{ site.url }}{{ site.baseurl }}/assets/images/carousel/arrow-left.svg') no-repeat center;
+	cursor: pointer;
 }
 .fp-controlArrow.fp-next {
     left: 75%;
-    cursor: e-resize;
-    
+    /*background-image: {{ site.url }}{{ site.baseurl }}/assets/images/close-white.svg;*/    
 }
-
-.fp-controlArrow.fp-next {
-	/*background-image: {{ site.url }}{{ site.baseurl }}/assets/images/close-white.svg;*/
-	background-image: url('{{ site.url }}{{ site.baseurl }}/assets/images/arrow-right.svg');
+.fp-controlArrow.fp-next:hover {
+	background: url('{{ site.url }}{{ site.baseurl }}/assets/images/carousel/arrow-right.svg') no-repeat center;
+	cursor: pointer;
 }
-
-
