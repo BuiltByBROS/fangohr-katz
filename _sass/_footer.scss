@@ -15,6 +15,10 @@
     line-height: 1.5;
   }
 }
+.contact-footer {
+  @extend .menu-footer;
+  color: _palette(_katz-secondary);
+}
 .menu-footer-logo {
   background-color:#ccc;
   background: url("../assets/images/logo-katz-blue.svg") no-repeat center center;
@@ -35,6 +39,10 @@
     width: 60px;
     height: 37px;
   }
+}
+.contact-footer-logo {
+  @extend .menu-footer-logo;
+  background: url("../assets/images/logo-katz-white.svg") no-repeat center center;
 }
 .menu-footer-contact {
   position: absolute;
@@ -78,4 +86,11 @@
 .footer-menu-btn:hover {
   border: solid 1px _palette(_katz-primary);
   text-decoration-style: none;
+}
+.footer-link {
+  color: _palette(_katz-secondary);
+  &:hover {
+    color: _palette(_katz-secondary);
+    opacity: 0.8;
+  }
 }

@@ -94,14 +94,14 @@
     }
 
     &.white{
-      background: rgba(256,256,256, .4);
+      background: rgba(256,256,256, 0.4);
+      padding: 0; 
     }
 
     &.black{
        background: rgba(0,0,0, .25);
     }
   }
-
 }
 
 #menu, #cover {
