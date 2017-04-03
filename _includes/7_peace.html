@@ -47,13 +47,15 @@
     <div class="overlap-gallery container-fluid hidden">  
         {% for item in site.data.peace.team reversed %}
             <div class="slide">
-                <div class="text-content">
+                <div class="text-content full-height">
                     
                     <div class="row">
                         <div class="col-sm-8">
-                            <h2>{{item.name}}</h2>
-                            <h4>{{item.position}}</h4>
-                            <p>{{item.bio}}</p>
+                            <h2 class="font-title-detail">{{item.name}}</h2>
+                            <h4 class="font-subtitle-detail">{{item.position}}</h4>
+                            <div>
+                                <p class="font-content-detail">{{item.bio}}</p>
+                            </div>
                         </div>
                         <div class="col-sm-4">
                             <img src="{{ site.url }}{{ site.baseurl }}/assets/images/team/{{{item.thumbnail}}" alt="{item.name}}" class="img-fluid">

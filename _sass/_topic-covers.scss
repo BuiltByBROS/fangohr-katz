@@ -45,6 +45,12 @@
   }
 }
 
+.font-title-detail {
+    @extend .font-title;
+    position: relative;
+    top: 0;
+}
+
 
 .font-title-item:hover {
   opacity: .8;

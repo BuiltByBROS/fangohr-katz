@@ -28,3 +28,30 @@
 	letter-spacing: normal;
     color: _palette(_katz-primary);
 }
+
+.font-subtitle-detail {
+    @extend .font-subtitle;
+    position: relative;
+    padding-left: 5px;
+    font-weight: normal;
+    line-height: 1.5;
+    @include respond-to(sm) {
+        padding-bottom: 42px;
+    }
+}
+
+.font-content-detail {
+    @extend .text-content;
+    position: relative;
+    padding-left: 5px;
+}
+
+.font-content-detail-italic {
+    @extend .text-content;
+    font-style: italic;
+    position: relative;
+    padding-left: 5px;
+    @include respond-to(sm) {
+        margin-bottom: 24px;
+    }
+}
