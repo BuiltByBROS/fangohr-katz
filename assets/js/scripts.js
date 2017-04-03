@@ -87,7 +87,7 @@ function moveSectionDown() {
 }
 
 function moveToMenu() {
-    $.fn.fullpage.moveTo('#home');
+    $.fn.fullpage.moveTo('home');
 }
 
 function initFP(topicClass = '.topic') {
