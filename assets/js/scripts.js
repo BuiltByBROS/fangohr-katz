@@ -159,7 +159,9 @@ function initFP(topicClass = '.topic') {
 
         //events
         onLeave: function (index, nextIndex, direction) {
-           var destinationToIgnore = $('.topic').eq(nextIndex).hasClass('ignore');
+            var destinationToIgnore = $('.topic').eq(nextIndex+1).hasClass('ignore');
+            console.log('id', $('.topic').eq(nextIndex).attr('class') ); 
+            console.log('next', nextIndex); 
             console.log(destinationToIgnore);
             if(destinationToIgnore){
                 var destination = (direction === 'down') ? nextIndex + 1 : nextIndex - 1
