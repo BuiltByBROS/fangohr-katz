@@ -41,7 +41,8 @@
 }
 .cover-ul, .menu-ul{
   padding-left:0;
-  
+  height: 100%!important;
+
   .item-title{
    
 
@@ -108,6 +109,6 @@
   height: 100%;
   padding-top:28px;
   @include respond-to(md) {
-    padding-top:35px;
+    padding-top:32px;
   }
 }

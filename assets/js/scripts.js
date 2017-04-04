@@ -29,7 +29,10 @@ $(document).ready(function () {
         setTimeout(function () {
             // $('.topic-cover').remove();
             $('.topic').addClass('topic-hidden');
+           
             $(".menu." + topicClass).removeClass('topic-hidden');
+            $(".cover." + topicClass).removeClass('topic-hidden');
+           
             $('.' + topicClass).removeClass('topic-hidden');
             $.fn.fullpage.reBuild;
             $.fn.fullpage.destroy('all');
@@ -44,6 +47,17 @@ $(document).ready(function () {
     });
 });
 
+
+window.currBackSection;
+
+
+// $(document).keyup(function(e) {
+//     if (e.keyCode == 27) { // escape key maps to keycode `27`
+//         var secN = parseInt(currBackSection, 10);
+//         console.log(currBackSection);
+//         closeGallery('.overlap-gallery', secN);
+//     }
+// });
 // ====================================================
 // Function to check off the checkboxes
 // ====================================================
@@ -60,10 +74,13 @@ function check(elem) {
 // ====================================================
 // Functions to move ==================================
 // ====================================================
-function closeGallery(e,backToSection) {
+function closeGallery(e, backToSection) {
     $.fn.fullpage.silentMoveTo(backToSection);    
     $(e).parent().addClass('hidden');
     $('.gallery-container').addClass('ignore');
+
+    console.log(e);
+    console.log(backToSection);
 }
 
 function moveTo(sectionNumber, slideNumber, slideContainer, silent) {
@@ -72,6 +89,8 @@ function moveTo(sectionNumber, slideNumber, slideContainer, silent) {
     var sldN = parseInt(slideNumber, 10) - 1;
     $(slideContainer).removeClass('hidden');
     $('.gallery-container').removeClass('ignore');
+
+    window.currBackSection = sectionNumber;
     
     if (silent) {
         $.fn.fullpage.silentMoveTo(secN, sldN);
@@ -88,6 +107,16 @@ function moveSectionDown() {
 
 function moveToMenu() {
     $.fn.fullpage.moveTo('home');
+}
+
+function ignoreNextDestination(index, nextIndex, direction) {
+    
+    var destinationToIgnore = $('.topic').eq(nextIndex+1).hasClass('ignore');
+
+    // if (destinationToIgnore) {
+    //     var destination = (direction === 'down') ? nextIndex + 1 : nextIndex - 1
+    //     return false;
+    // }
 }
 
 function initFP(topicClass = '.topic') {
@@ -159,14 +188,9 @@ function initFP(topicClass = '.topic') {
 
         //events
         onLeave: function (index, nextIndex, direction) {
-            var destinationToIgnore = $('.topic').eq(nextIndex+1).hasClass('ignore');
-            console.log('id', $('.topic').eq(nextIndex).attr('class') ); 
-            console.log('next', nextIndex); 
-            console.log(destinationToIgnore);
-            if(destinationToIgnore){
-                var destination = (direction === 'down') ? nextIndex + 1 : nextIndex - 1
-                return false;
-            }
+
+            return ignoreNextDestination(index, nextIndex, direction);
+
         },
         afterLoad: function (anchorLink, index) {
            
