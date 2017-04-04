@@ -6,6 +6,9 @@ $(document).ready(function () {
     // ======================================================
     initFP('.topic-home');
 
+    setTimeout(function () {
+        window.scrollTo(0, 1);
+    }, 1000);
 
     // Remove the cover
     $('.cover').on('click', function () {
