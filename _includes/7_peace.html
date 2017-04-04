@@ -32,7 +32,7 @@
             <div class="row">
                 
                 {% for item in site.data.peace.team reversed %}
-                <div class="col-6 col-sm-2">
+                <div class="col-6 col-lg-2 col-md-4 col-sm-4">
                     <div class="grid-item" onclick="moveTo(7, {{ forloop.index }},'.overlap-gallery', true )">
                         <span class="blue-filter"></span>
                         <img src="{{ site.url }}{{ site.baseurl }}/assets/images/team/{{{item.thumbnail}}" alt="{item.info}}" class="img-fluid property-image">
