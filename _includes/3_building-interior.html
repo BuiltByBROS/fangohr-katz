@@ -1,5 +1,6 @@
 <div class="topic topic-hidden topic-{{include.topic-class}} cover">{% include 1_cover.html %}</div>
 <div class="topic topic-hidden topic-{{include.topic-class}} menu">{% include 2_menu.html %}</div>
+
 {% assign cover_img = site.url | append: site.baseurl | append: site.data.building-interior.image %}
 
 {% include _parts/topic-cover.html 
@@ -13,8 +14,7 @@
     data=site.data.building-interior
 %}
 
-
-<div class="topic topic-{{include.topic-class}} container-fluid">
+<div class="topic topic-{{include.topic-class}} container-fluid ignore">
     
     <h2 class="font-title hidden-xs-down">{{site.data.building-interior.title}}</h2>
     <div class="text-content">
@@ -30,19 +30,25 @@
                 </div>
                 {% endfor %}
             </div>
-
-             <!-- Slideshow -->
     </div>
      {% include _parts/back-to-menu.html %}
 </div>
 
-<div class="topic topic-{{include.topic-class}} container-fluid gallery-container ignore">
+<div class="topic topic-{{include.topic-class}} container-fluid gallery-container ignoreNext">
 
     <div class="overlap-gallery container-fluid hidden">  
         {% for item in site.data.building-interior.slides %}
             <div class="slide">
-                <img src="{{ site.url }}{{ site.baseurl }}/assets/images/building-interior/slides/{{{item.thumbnail}}" alt="{item.info}}" class="img-fluid property-image">
+                <img src="{{ site.url }}{{ site.baseurl }}/assets/images/building-interior/slides/{{{item.thumbnail}}" alt="{{item.name}}" class="img-fluid property-image">
             </div>
+            <div class="slide-wrapper">
+                    <div id="{{ forloop.index }}_info" class="info-credits hidden">
+                        <img class="close-info"  data-target="{{ forloop.index }}_info" src="{{ site.url }}{{ site.baseurl }}/assets/images/close-blue.svg">
+                        <h6>{{item.name}}</h6>
+                        <p>{{item.credits}}</p>
+                    </div>
+                    <div class="info-button" data-target="{{ forloop.index }}_info"></div>
+                </div>
         {% endfor %}
     </div>
     <div class="navigation-down text-center" onclick="closeGallery(this, 5)">

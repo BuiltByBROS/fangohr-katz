@@ -10,7 +10,7 @@
 
 {% include _parts/content-two-cols.html 
     topic-class=include.topic-class
-    data=site.data.building-interior
+    data=site.data.peace
 %}
 
 <div class="topic topic-{{include.topic-class}} container-fluid">
@@ -30,7 +30,7 @@
     <h2 class="font-title hidden-xs-down">{{site.data.peace.teamTitle}}</h2>
     <div class="text-content">
             <div class="row">
-                <!-- Gallery -->
+                
                 {% for item in site.data.peace.team reversed %}
                 <div class="col-6 col-sm-2">
                     <div class="grid-item" onclick="moveTo(7, {{ forloop.index }},'.overlap-gallery', true )">

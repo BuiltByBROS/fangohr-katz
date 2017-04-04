@@ -40,6 +40,7 @@ $(document).ready(function () {
             initFP('.' + topicClass);
             $.fn.fullpage.silentMoveTo(2);
             $.fn.fullpage.moveTo(3);
+            $('#topicClassName').val('.' + topicClass);
 
         }, 300);
 
@@ -58,6 +59,7 @@ window.currBackSection;
 //         closeGallery('.overlap-gallery', secN);
 //     }
 // });
+
 // ====================================================
 // Function to check off the checkboxes
 // ====================================================
@@ -82,6 +84,7 @@ function closeGallery(e, backToSection) {
     console.log(e);
     console.log(backToSection);
 }
+
 
 function moveTo(sectionNumber, slideNumber, slideContainer, silent) {
     
@@ -109,10 +112,25 @@ function moveToMenu() {
     $.fn.fullpage.moveTo('home');
 }
 
-function ignoreNextDestination(index, nextIndex, direction) {
-    
-    var destinationToIgnore = $('.topic').eq(nextIndex+1).hasClass('ignore');
+// ====================================================
+// Open tooltip of image ==============================
+// ====================================================
+$('.close-info').click(function () {
+    var currInfo = $(this).data('target');
+    $('#' + currInfo).addClass('hidden');
+    console.log(currInfo);
+});
 
+$('.info-button').click(function () {
+    var currInfo = $(this).data('target');
+    $('#' + currInfo).removeClass('hidden');
+    console.log(currInfo);
+})
+
+function ignoreNextDestination(index, nextIndex, direction) {
+    var topicClass = $('#topicClassName').val();
+    var destinationToIgnore = $('.topic').eq(nextIndex).hasClass('ignore');
+    
     // if (destinationToIgnore) {
     //     var destination = (direction === 'down') ? nextIndex + 1 : nextIndex - 1
     //     return false;
