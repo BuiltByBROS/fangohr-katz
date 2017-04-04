@@ -82,25 +82,29 @@
 
 .navigation-down{
   width: 100%;
-  .back-to-menu, .next-section-anchor{
-    position: absolute !important;
-    cursor:pointer;
-    bottom: 70px;
-    padding: 4px 3px;
-    width: 36px; 
-    height: 36px;
-    z-index: 999999;
-    @include respond-to(sm) {
+  position: absolute !important;
+  bottom: 70px;
+  z-index: 999999;
+  
+  @include respond-to(sm) {
       bottom: 35px;
     }
+  .back-to-menu, .next-section-anchor{
+    
+    cursor:pointer;
+    width: 36px; 
+    height: 36px;
+    
+    
 
     &.white{
       background: rgba(256,256,256, 0.4);
-      padding: 0; 
+      padding: 9px 3px;
     }
 
     &.black{
        background: rgba(0,0,0, .25);
+      padding: 9px 3px;
     }
   }
 }
