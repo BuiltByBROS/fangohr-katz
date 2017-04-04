@@ -116,6 +116,30 @@ function moveToMenu() {
     $.fn.fullpage.moveTo('home');
 }
 
+function goToAbout(e) {
+   
+        var topicClass = 'topic-peace';
+        check('.checkbox-' + topicClass);
+
+        setTimeout(function () {
+            // $('.topic-cover').remove();
+            $('.topic').addClass('topic-hidden');
+           
+            $(".menu." + topicClass).removeClass('topic-hidden');
+            $(".cover." + topicClass).removeClass('topic-hidden');
+           
+            $('.' + topicClass).removeClass('topic-hidden');
+            $.fn.fullpage.reBuild;
+            $.fn.fullpage.destroy('all');
+
+            initFP('.' + topicClass);
+            $.fn.fullpage.silentMoveTo(2);
+            $.fn.fullpage.moveTo(5);
+            $('#topicClassName').val('.' + topicClass);
+
+        }, 300);
+}
+
 // ====================================================
 // Open tooltip of image ==============================
 // ====================================================
@@ -198,7 +222,7 @@ function initFP(topicClass = '.topic') {
         // fixedElements: '#menu, .footer',
         responsiveWidth: 768,
         responsiveHeight: 0,
-        responsiveSlides: false,
+        responsiveSlides: true,
         parallax: false,
         parallaxOptions: { type: 'reveal', percentage: 62, property: 'translate' },
 
