@@ -98,7 +98,7 @@ html.fp-enabled,
     top: 0%;
     cursor: pointer;
     height: 100%;
-    width: 10%;
+    width: 15%;
 }
 .fp-controlArrow.fp-prev:hover{
 	background: url('/fangohr-katz/assets/images/carousel/arrow-left.svg') no-repeat center;
@@ -108,12 +108,14 @@ html.fp-enabled,
 .fp-controlArrow.fp-next {
 	background: url('/fangohr-katz/assets/images/carousel/arrow-right.svg') no-repeat center;
 	opacity: 0.3;
-    right: 10%; 
+	float: right;
+	right: 0%;
 }
 .fp-controlArrow.fp-prev {
 	background: url('/fangohr-katz/assets/images/carousel/arrow-left.svg') no-repeat center;
 	opacity: 0.3;
-    left: 10%; 
+	float: left;
+	left: 0%;
 }
 .fp-controlArrow.fp-next:hover {
 	/*background: url('{{ site.url }}{{ site.baseurl }}/assets/images/carousel/arrow-right.svg') no-repeat center;*/
