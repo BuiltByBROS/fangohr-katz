@@ -100,25 +100,20 @@ html.fp-enabled,
     height: 100%;
     width: 10%;
 }
-.fp-controlArrow.fp-next {
-	background: url('/fangohr-katz/assets/images/carousel/arrow-right.svg') no-repeat center;
-	opacity: 20%;
-    left: 90%; 
-}
-.fp-controlArrow.fp-pref {
-	background: url('/fangohr-katz/assets/images/carousel/arrow-left.svg') no-repeat center;
-	opacity: .2;
-    left: 10%; 
-}
 .fp-controlArrow.fp-prev:hover{
 	background: url('/fangohr-katz/assets/images/carousel/arrow-left.svg') no-repeat center;
-	opacity: 1;
+	opacity: 0.2;
 	cursor: pointer;
+    left: 90%; 
+}
+.fp-controlArrow.fp-next {
+	background: url('/fangohr-katz/assets/images/carousel/arrow-left.svg') no-repeat center;
+	opacity: 0.2;
+    left: 90%; 
 }
 .fp-controlArrow.fp-next:hover {
 	/*background: url('{{ site.url }}{{ site.baseurl }}/assets/images/carousel/arrow-right.svg') no-repeat center;*/
 	background: url('/fangohr-katz/assets/images/carousel/arrow-right.svg') no-repeat center;
-	opacity: 1;
 	cursor: pointer;
 }
 
