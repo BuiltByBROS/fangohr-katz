@@ -61,13 +61,15 @@ $(document).ready(function () {
 window.currBackSection;
 
 
-// $(document).keyup(function(e) {
-//     if (e.keyCode == 27) { // escape key maps to keycode `27`
-//         var secN = parseInt(currBackSection, 10);
-//         console.log(currBackSection);
-//         closeGallery('.overlap-gallery', secN);
-//     }
-// });
+$(document).keyup(function(e) {
+    if (e.keyCode == 27) { // escape key maps to keycode `27`
+        var secN = parseInt(currBackSection, 10);
+        var secBack = secN - 1;
+        var topicClass = $('#topicClassName').val();
+        
+        closeGallery( $(topicClass + '.gallery-container .navigation-down'), secBack) ;
+    }
+});
 
 // ====================================================
 // Function to check off the checkboxes
