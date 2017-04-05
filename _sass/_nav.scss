@@ -1,3 +1,7 @@
+.topic-home{
+  z-index: 9999999; //Avoid overlapping of the first cover and menu with other covers and menus of other topics
+}
+
 .check-list {
   list-style-type: none;
 

@@ -29,7 +29,7 @@ $(document).ready(function () {
     });
 
     // Move around the menu items
-    $('#menu .check-list').on('click', function (e) {
+    $('#menu .check-list, .goToTopic').on('click', function (e) {
         e.preventDefault();
 
         var topicClass = $(this).data('target');
