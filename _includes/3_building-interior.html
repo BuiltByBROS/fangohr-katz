@@ -41,16 +41,24 @@
             <div class="slide">
                 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/building-interior/slides/{{{item.thumbnail}}" alt="{{item.name}}" class="img-fluid property-image">
             </div>
-            <div class="slide-wrapper">
-                <div id="{{ forloop.index }}_info" class="info-credits hidden">
-                    <img class="close-info"  data-target="{{ forloop.index }}_info" src="{{ site.url }}{{ site.baseurl }}/assets/images/close-blue.svg">
-                    <h6>{{item.name}}</h6>
-                    <p>{{item.credits}}</p>
-                </div>
-                <div class="info-button" data-target="{{ forloop.index }}_info"></div>
-            </div>
+
+        
+            <input type="hidden" id="{{ forloop.index0 }}_info_name" value="{{item.name}}">
+            <input type="hidden" id="{{ forloop.index0 }}_info_credits" value="{{item.credits}}">
         {% endfor %}
     </div>
+
+
+    <!-- tooltip -->
+    <div id="{{ forloop.index }}_info" class="info-credits hidden">
+        <img class="close-info"  data-target="{{ forloop.index0 }}_info" src="{{ site.url }}{{ site.baseurl }}/assets/images/close-blue.svg">
+        <h6 class="name"></h6>
+        <p class="credits"></p>
+    </div>
+
+    <div class="info-button" data-target="_info"></div>
+    
+
     <div class="navigation-down text-center" onclick="closeGallery(this, 5)">
         <span  class="back-to-menu black">
             <img src="{{ site.url }}{{ site.baseurl }}/assets/images/close-white.svg" alt="Menu">

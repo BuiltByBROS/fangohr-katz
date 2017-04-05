@@ -1,5 +1,10 @@
 $(document).ready(function () {
 
+    $('.info-button').attr('data-target', '1_info');
+
+    var currInfo = '1_info';
+    $('.info-credits .credits').html($('#' + currInfo + '_credits').val());
+    $('.info-credits .name').html( $('#' + currInfo + '_name').val() );
     
     // ======================================================
     // Main bootstrap of functions ==========================
@@ -99,13 +104,20 @@ function moveTo(sectionNumber, slideNumber, slideContainer, silent) {
 
     window.currBackSection = sectionNumber;
     
+     // tooltip
+   
+    // $('.info-button').data('target', sldN + '_info');
+    // $('.info-credits .credits').html($('#' + sldN + '_credits').val());
+    // $('.info-credits .name').html($('#' + sldN + '_name').val());
+    
+    
     if (silent) {
         $.fn.fullpage.silentMoveTo(secN, sldN);
     }
     else {
         $.fn.fullpage.moveTo(secN, sldN);    
     }
-    
+ 
     
 }
 function moveSectionDown() {
@@ -149,10 +161,12 @@ $('.close-info').click(function () {
     console.log(currInfo);
 });
 
-$('.info-button').click(function () {
-    var currInfo = $(this).data('target');
-    $('#' + currInfo).removeClass('hidden');
-    console.log(currInfo);
+$('.info-button').on('click', function () {
+    // var currInfo = $(this).data('target');
+    // $('.info-credits .credits').html($('#' + currInfo + '_credits').val());
+    // $('.info-credits .name').html( $('#' + currInfo + '_name').val() );
+    $('.info-credits').removeClass('hidden');
+
 })
 
 function ignoreNextDestination(index, nextIndex, direction) {
@@ -245,9 +259,20 @@ function initFP(topicClass = '.topic') {
         afterResize: function () { },
         afterResponsive: function (isResponsive) { },
         afterSlideLoad: function (anchorLink, index, slideAnchor, slideIndex) {
+            // setTimeout(function () {
+                
+                $('.info-button').attr('data-target', slideIndex + '_info');
             
-         },
-        onSlideLeave: function (anchorLink, index, slideIndex, direction, nextSlideIndex) { }
+                var currInfo = slideIndex + '_info';
+                $('.info-credits .credits').html($('#' + currInfo + '_credits').val());
+                $('.info-credits .name').html( $('#' + currInfo + '_name').val() );
+            // }, 1000);
+        },
+        onSlideLeave: function (anchorLink, index, slideIndex, direction, nextSlideIndex) {
+            $('.info-credits').addClass('hidden'); 
+            
+            
+         }
 
     });
 }
