@@ -105,18 +105,20 @@ html.fp-enabled,
 	opacity: 20%;
     left: 90%; 
 }
-.fp-controlArrow.fp-next {
+.fp-controlArrow.fp-pref {
 	background: url('/fangohr-katz/assets/images/carousel/arrow-left.svg') no-repeat center;
-	opacity: 20%;
+	opacity: .2;
     left: 10%; 
 }
 .fp-controlArrow.fp-prev:hover{
 	background: url('/fangohr-katz/assets/images/carousel/arrow-left.svg') no-repeat center;
+	opacity: 1;
 	cursor: pointer;
 }
 .fp-controlArrow.fp-next:hover {
 	/*background: url('{{ site.url }}{{ site.baseurl }}/assets/images/carousel/arrow-right.svg') no-repeat center;*/
 	background: url('/fangohr-katz/assets/images/carousel/arrow-right.svg') no-repeat center;
+	opacity: 1;
 	cursor: pointer;
 }
 
