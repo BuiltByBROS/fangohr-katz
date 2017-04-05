@@ -98,14 +98,14 @@ html.fp-enabled,
     top: 0%;
     cursor: pointer;
     height: 100%;
-    width: 20%;
+    width: 10%;
 }
 .fp-controlArrow.fp-prev:hover{
 	background: url('/fangohr-katz/assets/images/carousel/arrow-left.svg') no-repeat center;
 	cursor: pointer;
 }
 .fp-controlArrow.fp-next {
-    left: 75%; 
+    left: 90%; 
 }
 .fp-controlArrow.fp-next:hover {
 	/*background: url('{{ site.url }}{{ site.baseurl }}/assets/images/carousel/arrow-right.svg') no-repeat center;*/
