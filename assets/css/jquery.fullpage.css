@@ -104,16 +104,15 @@ html.fp-enabled,
 	background: url('/fangohr-katz/assets/images/carousel/arrow-left.svg') no-repeat center;
 	opacity: 1;
 	cursor: pointer;
-    left: 90%; 
 }
 .fp-controlArrow.fp-next {
 	background: url('/fangohr-katz/assets/images/carousel/arrow-right.svg') no-repeat center;
-	opacity: 0.2;
-    left: 90%; 
+	opacity: 0.3;
+    right: 10%; 
 }
 .fp-controlArrow.fp-prev {
 	background: url('/fangohr-katz/assets/images/carousel/arrow-left.svg') no-repeat center;
-	opacity: 0.2;
+	opacity: 0.3;
     left: 10%; 
 }
 .fp-controlArrow.fp-next:hover {
