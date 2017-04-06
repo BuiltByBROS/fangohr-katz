@@ -45,6 +45,7 @@
         
             <input type="hidden" id="{{ forloop.index0 }}_info_name" value="{{item.name}}">
             <input type="hidden" id="{{ forloop.index0 }}_info_credits" value="{{item.credits}}">
+            <input type="hidden" id="{{ forloop.index0 }}_info_description" value="{{item.description}}">
         {% endfor %}
     </div>
 
@@ -54,6 +55,7 @@
         <img class="close-info"  data-target="{{ forloop.index0 }}_info" src="{{ site.url }}{{ site.baseurl }}/assets/images/close-blue.svg">
         <h6 class="name"></h6>
         <p class="credits"></p>
+        <p class="description"></p>
     </div>
 
     <div class="info-button" data-target="_info"></div>
