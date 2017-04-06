@@ -1,10 +1,11 @@
 <section id="cover" class="container-fluid">
-<ul class="cover-ul">
-{% for item in site.data.nav.cover %}
-    <li class="check-list">
-        <label for="cover-checkbox{{ forloop.index }}" class="secondary item-title">{{ item.name }}</label>
-    </li>
-{% endfor %}
-</ul> 
-{% include _parts/nav-down.html %}
+    <ul class="cover-ul">
+    {% for item in site.data.nav.cover %}
+        <li class="check-list">
+            <label for="cover-checkbox{{ forloop.index }}" class="secondary item-title">{{ item.name }}</label>
+        </li>
+    {% endfor %}
+    </ul> 
+
+    {% include _parts/nav-down.html %}
 </section>

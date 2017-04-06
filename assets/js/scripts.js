@@ -29,7 +29,7 @@ $(document).ready(function () {
     });
 
     // Move around the menu items
-    $('#menu .check-list').on('click', function (e) {
+    $('#menu .check-list, .goToTopic').on('click', function (e) {
         e.preventDefault();
 
         var topicClass = $(this).data('target');
@@ -61,13 +61,15 @@ $(document).ready(function () {
 window.currBackSection;
 
 
-// $(document).keyup(function(e) {
-//     if (e.keyCode == 27) { // escape key maps to keycode `27`
-//         var secN = parseInt(currBackSection, 10);
-//         console.log(currBackSection);
-//         closeGallery('.overlap-gallery', secN);
-//     }
-// });
+$(document).keyup(function(e) {
+    if (e.keyCode == 27) { // escape key maps to keycode `27`
+        var secN = parseInt(currBackSection, 10);
+        var secBack = secN - 1;
+        var topicClass = $('#topicClassName').val();
+        
+        closeGallery( $(topicClass + '.gallery-container .navigation-down'), secBack) ;
+    }
+});
 
 // ====================================================
 // Function to check off the checkboxes
@@ -171,12 +173,12 @@ $('.info-button').on('click', function () {
 
 function ignoreNextDestination(index, nextIndex, direction) {
     var topicClass = $('#topicClassName').val();
-    var destinationToIgnore = $('.topic').eq(nextIndex).hasClass('ignore');
-    
-    // if (destinationToIgnore) {
-    //     var destination = (direction === 'down') ? nextIndex + 1 : nextIndex - 1
-    //     return false;
-    // }
+    var destinationToIgnore = $(topicClass).eq(nextIndex-1).hasClass('ignore');
+    console.log('destination', destinationToIgnore);
+    if (destinationToIgnore) {
+        var destination = (direction === 'down') ? index + 1 : index - 1
+        return false;
+    }
 }
 
 function initFP(topicClass = '.topic') {
@@ -214,8 +216,8 @@ function initFP(topicClass = '.topic') {
         offsetSections: false,
         resetSliders: false,
         fadingEffect: false,
-        normalScrollElements: '#element1, .element2',
-        scrollOverflow: false,
+        normalScrollElements: '#grid-interior',
+        scrollOverflow: true,
         scrollOverflowReset: false,
         scrollOverflowOptions: null,
         touchSensitivity: 15,
@@ -234,7 +236,7 @@ function initFP(topicClass = '.topic') {
         // paddingTop: '3em',
         // paddingBottom: '10px',
         // fixedElements: '#menu, .footer',
-        responsiveWidth: 768,
+        responsiveWidth: 0,
         responsiveHeight: 0,
         responsiveSlides: true,
         parallax: false,
