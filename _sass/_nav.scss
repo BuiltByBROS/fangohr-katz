@@ -86,6 +86,7 @@
   width: 100%;
   position: absolute !important;
   bottom: 70px;
+  left: 0;
   z-index: 999999;
 
   @include respond-to(sm) {
