@@ -4,9 +4,9 @@
     top:0;
     left:0;
     padding:0;
-    .text-content{
-        padding: 0 15px;
-    }
+    // .text-content{
+    //     padding: 0 15px;
+    // }
     // .slide img {
     //     min-width: 100%;
     // }
@@ -15,6 +15,10 @@
         opacity:0;
         display: none;
     }
+}
+
+.gallery-with-padding{
+    padding: 0 15px!important;
 }
 
 .close-gallery{
