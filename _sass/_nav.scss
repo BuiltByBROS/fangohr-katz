@@ -116,10 +116,10 @@
 }
 
 #menu, #cover {
-  min-height: 100vh;
-  // @include respond-to(sm) {
-  //     min-height: none;
-  // }
+  min-height: calc(100vh - 60px);
+  @include respond-to(sm) {
+      min-height: 100vh;
+  }
   height: 100%;
   padding-top:28px;
   @include respond-to(md) {
