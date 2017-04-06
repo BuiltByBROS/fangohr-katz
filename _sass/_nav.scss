@@ -117,7 +117,7 @@
 
 #menu, #cover {
   min-height: calc(100vh - 60px);
-  @include respond-to(sm) {
+  @include respond-to(md) {
       min-height: 100vh;
   }
   height: 100%;
