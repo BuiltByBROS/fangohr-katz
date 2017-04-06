@@ -116,6 +116,10 @@
 }
 
 #menu, #cover {
+  min-height: 100vh;
+  // @include respond-to(sm) {
+  //     min-height: none;
+  // }
   height: 100%;
   padding-top:28px;
   @include respond-to(md) {
