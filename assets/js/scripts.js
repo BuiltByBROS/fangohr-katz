@@ -173,12 +173,12 @@ $('.info-button').on('click', function () {
 
 function ignoreNextDestination(index, nextIndex, direction) {
     var topicClass = $('#topicClassName').val();
-    var destinationToIgnore = $('.topic').eq(nextIndex).hasClass('ignore');
-    
-    // if (destinationToIgnore) {
-    //     var destination = (direction === 'down') ? nextIndex + 1 : nextIndex - 1
-    //     return false;
-    // }
+    var destinationToIgnore = $(topicClass).eq(nextIndex-1).hasClass('ignore');
+    console.log('destination', destinationToIgnore);
+    if (destinationToIgnore) {
+        var destination = (direction === 'down') ? index + 1 : index - 1
+        return false;
+    }
 }
 
 function initFP(topicClass = '.topic') {
