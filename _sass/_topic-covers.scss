@@ -21,9 +21,9 @@
   font-style: normal;
   font-stretch: normal;
   line-height: 1.17;
-  // @include respond-to(sm) {
-  //   font-size: 48px;
-  // }
+  @include respond-to(sm) {
+    font-size: 34px;
+  }
   @include respond-to(md) {
     font-size: 48px;
     line-height: 1.23;
