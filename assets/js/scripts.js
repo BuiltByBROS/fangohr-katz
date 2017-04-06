@@ -266,8 +266,10 @@ function initFP(topicClass = '.topic') {
                 $('.info-button').attr('data-target', slideIndex + '_info');
             
                 var currInfo = slideIndex + '_info';
+                $('.info-credits .description').html($('#' + currInfo + '_description').val());
                 $('.info-credits .credits').html($('#' + currInfo + '_credits').val());
-                $('.info-credits .name').html( $('#' + currInfo + '_name').val() );
+                $('.info-credits .name').html($('#' + currInfo + '_name').val());
+            
             // }, 1000);
         },
         onSlideLeave: function (anchorLink, index, slideIndex, direction, nextSlideIndex) {
