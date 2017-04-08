@@ -117,7 +117,12 @@
 }
 
 .topic-building{
+    
+
     .fp-controlArrow{
+        @include respond-to(md) {
+            opacity: 0;
+        }
         height:100vh!important;
     }
 }

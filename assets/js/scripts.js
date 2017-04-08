@@ -106,12 +106,7 @@ function moveTo(sectionNumber, slideNumber, slideContainer, silent) {
 
     window.currBackSection = sectionNumber;
     
-     // tooltip
-   
-    // $('.info-button').data('target', sldN + '_info');
-    // $('.info-credits .credits').html($('#' + sldN + '_credits').val());
-    // $('.info-credits .name').html($('#' + sldN + '_name').val());
-    
+    $.fn.fullpage.reBuild;
     
     if (silent) {
         $.fn.fullpage.silentMoveTo(secN, sldN);
@@ -216,7 +211,7 @@ function initFP(topicClass = '.topic') {
         offsetSections: false,
         resetSliders: false,
         fadingEffect: false,
-        normalScrollElements: '#grid-interior, .scrollable',
+        normalScrollElements: '#grid-interior',
         scrollOverflow: true,
         scrollOverflowReset: false,
         scrollOverflowOptions: null,
