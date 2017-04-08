@@ -118,13 +118,13 @@
 
 .property-desktop-img{
     @include respond-to(xl) {
-     max-height: 400px!important;
+     max-width: 400px!important;
     }
 }
 
 .team-desktop-img{
     @include respond-to(xl) {
-     max-height: 600px!important;
+     max-width: 600px!important;
     }
 }
 .topic-building{
