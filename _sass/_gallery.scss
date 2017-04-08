@@ -116,6 +116,17 @@
     padding: 20px 0;
 }
 
+.property-desktop-img{
+    @include respond-to(xl) {
+     max-height: 400px!important;
+    }
+}
+
+.team-desktop-img{
+    @include respond-to(xl) {
+     max-height: 600px!important;
+    }
+}
 .topic-building{
     
 
