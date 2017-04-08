@@ -88,13 +88,13 @@
 .navigation-down{
   width: 100%;
   position: absolute !important;
-  bottom: 70px;
+  bottom: 40px;
   left: 0;
   z-index: 999999;
 
   @include respond-to(sm) {
       bottom: 35px;
-    }
+  }
 
   .back-to-menu, .next-section-anchor{
     
@@ -118,6 +118,11 @@
   }
 }
 
+.mobile-relative{
+  position: relative!important;
+  bottom: initial!important;
+  margin-bottom: 40px;
+}
 
 .back-to-menu.white{
   background: none!important;
