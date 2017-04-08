@@ -88,6 +88,11 @@ function check(elem) {
 // Functions to move ==================================
 // ====================================================
 function closeGallery(e, backToSection) {
+    var topicClass = $('#topicClassName').val();
+    $.fn.fullpage.reBuild;
+    $.fn.fullpage.destroy('all');
+    initFP(topicClass);
+
     $.fn.fullpage.silentMoveTo(backToSection);    
     $(e).parent().addClass('hidden');
     $('.gallery-container').addClass('ignore');
@@ -98,7 +103,7 @@ function closeGallery(e, backToSection) {
 
 
 function moveTo(sectionNumber, slideNumber, slideContainer, silent) {
-    
+    var topicClass = $('#topicClassName').val();
     var secN = parseInt(sectionNumber, 10);
     var sldN = parseInt(slideNumber, 10) - 1;
     $(slideContainer).removeClass('hidden');
@@ -107,7 +112,9 @@ function moveTo(sectionNumber, slideNumber, slideContainer, silent) {
     window.currBackSection = sectionNumber;
     
     $.fn.fullpage.reBuild;
-    
+    $.fn.fullpage.destroy('all');
+    initFP(topicClass);
+
     if (silent) {
         $.fn.fullpage.silentMoveTo(secN, sldN);
     }
