@@ -67,6 +67,9 @@
         line-height: 1.25;
         padding: 5px;
         @include respond-to(sm) {
+            font-size: 9px;
+        }
+        @include respond-to(md) {
             font-size: 14px;
         }
     .detail-tooltip-location{
