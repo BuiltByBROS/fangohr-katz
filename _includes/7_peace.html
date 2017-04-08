@@ -53,16 +53,17 @@
         {% for item in site.data.peace.team reversed %}
             <div class="slide">
                 <div class="text-content full-height">
-                    <div class="row">
+                    <div class="row scrollable">
                         <div class="col-sm-6">
                             <h2 class="font-title-detail">{{item.name}}</h2>
                             <h4 class="font-subtitle-detail">{{item.position}}</h4>
                             <div>
+                                <img src="{{ site.url }}{{ site.baseurl }}/assets/images/team/{{{item.thumbnail}}" alt="{item.name}}" class="team-mobile-img img-fluid hidden-sm-up">
                                 <p class="font-content-detail">{{item.bio}}</p>
                             </div>
                         </div>
                         <div class="col-sm-6">
-                            <img src="{{ site.url }}{{ site.baseurl }}/assets/images/team/{{{item.thumbnail}}" alt="{item.name}}" class="img-fluid">
+                            <img src="{{ site.url }}{{ site.baseurl }}/assets/images/team/{{{item.thumbnail}}" alt="{item.name}}" class="img-fluid hidden-xs-down">
                         </div>
                     </div>
                 </div>

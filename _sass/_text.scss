@@ -35,7 +35,7 @@
     // padding-left: 5px;
     font-weight: normal;
     line-height: 1.5;
-    @include respond-to(sm) {
+    @include respond-to(md) {
         padding-bottom: 42px;
     }
 }

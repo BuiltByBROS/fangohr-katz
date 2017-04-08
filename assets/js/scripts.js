@@ -216,7 +216,7 @@ function initFP(topicClass = '.topic') {
         offsetSections: false,
         resetSliders: false,
         fadingEffect: false,
-        normalScrollElements: '#grid-interior',
+        normalScrollElements: '#grid-interior, .scrollable',
         scrollOverflow: true,
         scrollOverflowReset: false,
         scrollOverflowOptions: null,
