@@ -60,6 +60,15 @@ $(document).ready(function () {
 
 window.currBackSection;
 
+$(document).mousemove(function (e) {
+    clearTimeout(timeout);
+    $('.fp-prev.fp-controlArrow').addClass('forceVisible');
+    var timeout = setTimeout(function() {
+       $('.fp-prev.fp-controlArrow').removeClass('forceVisible');
+    }, 3000);
+
+
+});
 
 $(document).keyup(function(e) {
     if (e.keyCode == 27) { // escape key maps to keycode `27`
