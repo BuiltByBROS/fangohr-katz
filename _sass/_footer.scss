@@ -45,7 +45,9 @@
 }
 
 .topic-contact .navigation-down{
-  bottom: 100px;
+  @include respond-to(md) {
+   bottom: 100px;
+  }
 }
 
 .contact-footer-logo {

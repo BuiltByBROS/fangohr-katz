@@ -20,7 +20,7 @@
             <div class="row grid-container">
                 <!-- Gallery -->
                 {% for item in site.data.building-management.slides %}
-                <div class="col-6 col-sm-2">
+                <div class="col-4 col-sm-2">
                     <div class="grid-item" onclick="moveTo(6, {{ forloop.index }},'.overlap-gallery', true )">
                         <span class="blue-filter"></span>
                         <img src="{{ site.url }}{{ site.baseurl }}/assets/images/building-management/slides/{{{item.thumbnail}}" alt="{item.info}}" class="img-fluid property-image">
