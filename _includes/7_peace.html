@@ -52,8 +52,8 @@
     <div class="overlap-gallery  gallery-with-padding container-fluid hidden">  
         {% for item in site.data.peace.team reversed %}
             <div class="slide">
-                <div class="text-content full-height">
-                    <div class="row scrollable">
+                <div class="text-content full-height  scrollable">
+                    <div class="row">
                         <div class="col-sm-6">
                             <h2 class="font-title-detail">{{item.name}}</h2>
                             <h4 class="font-subtitle-detail">{{item.position}}</h4>
@@ -69,6 +69,7 @@
                 </div>
             </div>
         {% endfor %}
+        
     </div>
     
     <div class="navigation-down text-center" onclick="closeGallery(this, 6)">
