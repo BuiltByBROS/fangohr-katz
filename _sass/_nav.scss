@@ -87,7 +87,7 @@
 
 .navigation-down{
   width: 100%;
-  position: absolute !important;
+  position: absolute;
   bottom: 40px;
   left: 0;
   z-index: 999999;
@@ -119,9 +119,15 @@
 }
 
 .mobile-relative{
-  position: relative!important;
-  bottom: initial!important;
+  position: relative;
+  bottom: initial;
   margin-bottom: 40px;
+
+  @include respond-to(sm) {
+    position: absolute;
+    bottom: 35px;
+    margin-bottom: 0;
+  }
 }
 
 .back-to-menu.white{
