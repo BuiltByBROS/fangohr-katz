@@ -19,6 +19,12 @@
 .contact-footer {
   @extend .menu-footer;
   color: _palette(_katz-secondary);
+  position: relative;
+  padding: 0;
+  @include respond-to(md) {
+    position: absolute;
+    padding: 15px;
+  }
 }
 .menu-footer-logo {
 
@@ -107,4 +113,11 @@
 
 .contact-footer-tagline{
   cursor: pointer;
+  a{
+    color: white;
+    &:hover{
+      color:white;
+      text-decoration: none;
+    }
+  }
 }

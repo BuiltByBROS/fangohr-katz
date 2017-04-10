@@ -6,6 +6,13 @@
       margin-bottom:0;
   }
   
+  form{
+    padding-top: 75px;
+    @include respond-to(sm) {
+        padding-top: 0;
+    }
+
+  }
 
   .font-title{
      color: _palette(_katz-secondary) !important; 

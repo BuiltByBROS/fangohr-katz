@@ -2,10 +2,11 @@
 <div class="topic topic-hidden topic-{{ include.topic-class }} menu">{% include 2_menu.html %}</div>
 
 <div class="topic topic-{{include.topic-class}} contact-form container-fluid">
-    <h2 class="font-title hidden-xs-down">{{ site.data.contact.title }}</h2>
-    <p class="font-subtitle">{{ site.data.contact.subtitle }}</p>
+    <h2 class="font-title">{{ site.data.contact.title }}</h2>
+    
    
     <form action="https://formspree.io/{{ site.email }}" method="POST" class="text-content">
+    <p class="font-subtitle">{{ site.data.contact.subtitle }}</p>
         <input type="hidden" name="_next" value='{{ site.url }}{{ site.baseurl }}/thanks/'/>
         <input type="hidden" name="_subject" value='{{ site.contact-title }}'/>
         <div class="contact-list row">
@@ -47,7 +48,7 @@
         </div>
     </form>
     <div class="contact-footer">
-        <div class="row hidden-xs-down">
+        <div class="row">
             <div class="col-md-4">
                 <div class="contact-footer-logo"></div>
                 <div class="contact-footer-tagline" onclick="goToAbout(this);">
@@ -61,7 +62,11 @@
             </div>
             <div class="col-md-4">
                 <div class="contact-footer-tagline">
-                    <p><a href="mailto:info@katzarch.com" class="footer-link">info@katzarch.com</a> <br> T 212.353.1080</p>
+                    <p>
+                        <a href="mailto:info@katzarch.com" class="footer-link">info@katzarch.com</a> 
+                        <br> 
+                        <a href="tel:+12123531080">T 212.353.1080</a>
+                    </p>
                 </div>
             </div>
         </div>
