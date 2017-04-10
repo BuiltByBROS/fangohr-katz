@@ -63,11 +63,14 @@ window.currBackSection;
 $(document).mousemove(function (e) {
     clearTimeout(timeout);
     $('.fp-prev.fp-controlArrow').addClass('forceVisible');
+    $('#galleryCloseBtn').addClass('forceVisible');
+
     var timeout = setTimeout(function() {
-       $('.fp-prev.fp-controlArrow').removeClass('forceVisible');
+        $('.fp-prev.fp-controlArrow').removeClass('forceVisible');
+       $('#galleryCloseBtn').removeClass('forceVisible'); 
     }, 3000);
 
-
+    
 });
 
 $(document).keyup(function(e) {

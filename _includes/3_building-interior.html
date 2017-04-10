@@ -22,7 +22,7 @@
                 <!-- Gallery -->
                 {% for item in site.data.building-interior.slides %}
                     {% if item.hideThumb != false %}
-                        <div class="col-4 col-sm-2">
+                        <div class="col-20p">
                             <div class="grid-item" onclick="moveTo(6, {{ forloop.index }},'.overlap-gallery', true )">
                                 <span class="blue-filter"></span>
                                 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/building-interior/slides/{{{item.thumbnail}}" alt="{item.name}}" class="img-fluid property-image">
@@ -63,7 +63,7 @@
     <div class="info-button" data-target="_info"></div>
     
 
-    <div class="navigation-down text-center" onclick="closeGallery(this, 5)">
+    <div id="galleryCloseBtn" class="navigation-down text-center" onclick="closeGallery(this, 5)">
         <span  class="back-to-menu black">
             <img src="{{ site.url }}{{ site.baseurl }}/assets/images/close-white.svg" alt="Menu">
         </span>

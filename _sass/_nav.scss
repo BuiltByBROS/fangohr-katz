@@ -59,9 +59,9 @@
     font-stretch: normal;
     line-height: 1.17;
     color: _palette(_katz-primary);
-
+// font-size: 48px;
     @include respond-to(md) {
-      font-size: 48px;
+      font-size: 56px;
       line-height: 1.23;
       letter-spacing: -1.2px;
     }
@@ -223,9 +223,20 @@ div.iScrollIndicator{
   display: none!important;
 }
 
+#galleryCloseBtn{
+  opacity: 0;
+  transition: all 0.5s ease;
+}
 .topic-building-interior{
     
-
+    .forceVisible{
+      @include respond-to(md) {
+          opacity: 1!important;
+          transition: all 0.5s ease;
+          z-index: 999999999;
+      }
+    }
+    
     .fp-controlArrow{
         @include respond-to(md) {
             opacity: 0;
@@ -235,7 +246,7 @@ div.iScrollIndicator{
 
         &.forceVisible{
           @include respond-to(md) {
-              opacity: 1;
+              opacity:  1!important;
               transition: all 0.5s ease;
               z-index: 999999999;
           }

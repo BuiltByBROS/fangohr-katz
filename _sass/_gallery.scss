@@ -127,3 +127,12 @@
      max-width: 600px!important;
     }
 }
+
+.col-20p{
+    width: calc(100% / 3);
+    padding: 15px;
+    @include respond-to(md) {
+     width: 20%;
+    }
+    
+}
