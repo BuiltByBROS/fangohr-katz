@@ -9,9 +9,9 @@
     <p class="font-subtitle">{{ site.data.contact.subtitle }}</p>
         <input type="hidden" name="_next" value='{{ site.url }}{{ site.baseurl }}/thanks/'/>
         <input type="hidden" name="_subject" value='{{ site.contact-title }}'/>
-        <div class="contact-list row">
+        <div class="contact-list row hidden-xs-down">
             <div class="col-sm-6 col-md-4 ">
-                <ul class="contact-ul">
+                <ul class="contact-ul ">
                 {% for item in site.data.contact.services1 %}
                 <li class="check-list">
                     <input type="checkbox" id="{{item.key}}" name="{{item.key}}">
