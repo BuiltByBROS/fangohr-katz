@@ -68,7 +68,7 @@ $(document).mousemove(function (e) {
     var timeout = setTimeout(function() {
         $('.fp-prev.fp-controlArrow').removeClass('forceVisible');
        $('#galleryCloseBtn').removeClass('forceVisible'); 
-    }, 3000);
+    }, 4000);
 
     
 });
