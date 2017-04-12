@@ -62,12 +62,12 @@ window.currBackSection;
 
 $(document).mousemove(function (e) {
     clearTimeout(timeout);
-    $('.fp-prev.fp-controlArrow').addClass('forceVisible');
-    $('#galleryCloseBtn').addClass('forceVisible');
+    $('.fp-controlArrow').addClass('forceVisible');
+    $('.galleryCloseBtn').addClass('forceVisible');
 
     var timeout = setTimeout(function() {
-        $('.fp-prev.fp-controlArrow').removeClass('forceVisible');
-       $('#galleryCloseBtn').removeClass('forceVisible'); 
+        $('.fp-controlArrow').removeClass('forceVisible');
+       $('.galleryCloseBtn').removeClass('forceVisible'); 
     }, 4000);
 
     

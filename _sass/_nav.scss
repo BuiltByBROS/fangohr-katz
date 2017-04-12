@@ -228,17 +228,17 @@ div.iScrollIndicator{
   display: none!important;
 }
 
-#galleryCloseBtn{
+#galleryCloseBtn, .galleryCloseBtn{
   opacity: 0;
   transition: all 0.5s ease;
 }
-.topic-building-interior{
+.topic{
     
     .forceVisible{
       @include respond-to(md) {
           opacity: 1!important;
           transition: all 0.5s ease;
-          // z-index: 999999999;
+          z-index: 999999999;
       }
     }
     
@@ -246,14 +246,14 @@ div.iScrollIndicator{
         @include respond-to(md) {
             opacity: 0;
             transition: all 0.5s ease;
-            // z-index: 999999999;
+            z-index: 999999999;
         }
 
         &.forceVisible{
           @include respond-to(md) {
               opacity:  1!important;
               transition: all 0.5s ease;
-              // z-index: 999999999;
+              z-index: 999999999;
           }
         }
         height:100vh!important;
