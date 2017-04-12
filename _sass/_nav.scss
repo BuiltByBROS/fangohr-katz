@@ -113,7 +113,12 @@
 
     &.black{
        background: rgba(0,0,0, .1);
-      padding: 9px 7px;
+       padding: 9px 8px;
+       img{
+          height: 20px;
+          top: -1.9px;
+          position: relative;
+       }
     }
   }
 }
@@ -233,7 +238,7 @@ div.iScrollIndicator{
       @include respond-to(md) {
           opacity: 1!important;
           transition: all 0.5s ease;
-          z-index: 999999999;
+          // z-index: 999999999;
       }
     }
     
@@ -241,14 +246,14 @@ div.iScrollIndicator{
         @include respond-to(md) {
             opacity: 0;
             transition: all 0.5s ease;
-            z-index: 999999999;
+            // z-index: 999999999;
         }
 
         &.forceVisible{
           @include respond-to(md) {
               opacity:  1!important;
               transition: all 0.5s ease;
-              z-index: 999999999;
+              // z-index: 999999999;
           }
         }
         height:100vh!important;
