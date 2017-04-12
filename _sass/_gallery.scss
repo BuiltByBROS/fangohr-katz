@@ -137,7 +137,7 @@
     @include respond-to(md) {
      width: 20%;
     }
-    @include respond-to(landscape){
+    @include respond-to(xl){
         width: calc(100% / 6);
     }
 }
