@@ -134,5 +134,10 @@
     @include respond-to(md) {
      width: 20%;
     }
-    
+    @include respond-to(md) {
+     width: 20%;
+    }
+    @include respond-to(landscape){
+        width: calc(100% / 6);
+    }
 }
