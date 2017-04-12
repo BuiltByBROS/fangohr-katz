@@ -7,7 +7,7 @@
    
     <form action="https://formspree.io/{{ site.email }}" method="POST" class="text-content">
     <p class="font-subtitle">{{ site.data.contact.subtitle }}</p>
-        <input type="hidden" name="_next" value='{{ site.url }}{{ site.baseurl }}/thanks/'/>
+        <input type="hidden" name="_next" value='{{ site.url }}{{ site.baseurl }}/'/>
         <input type="hidden" name="_subject" value='{{ site.contact-title }}'/>
         <div class="contact-list row hidden-xs-down">
             <div class="col-sm-6 col-md-4 ">
@@ -30,7 +30,7 @@
                 {% endfor %}
                 </ul>
             </div> 
-            <input type="hidden" id="listcontact" name="listcontact" value="" >
+            <!--<input type="hidden" id="listcontact" name="listcontact" value="" >-->
         </div>
         <div>{{ site.data.contact.formlabel }}</div>
         
