@@ -55,6 +55,6 @@ html{
   -webkit-font-smoothing: antialiased !important;
 }
 
-h1{
-  line-height: 100%;
+h1, label, p{
+  line-height: 100%!important;
 }
