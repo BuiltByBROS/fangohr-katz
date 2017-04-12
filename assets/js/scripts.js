@@ -60,6 +60,17 @@ $(document).ready(function () {
 
 window.currBackSection;
 
+$('.contact-ul input').click(function () {
+    var list = '';
+    $('input[name="services[]"]:checked').each(function () {
+        list = list + ' - ' + $(this).val();
+    });
+    
+    $('#listcontact').val(list);
+    
+});
+
+
 $(document).mousemove(function (e) {
     clearTimeout(timeout);
     $('.fp-controlArrow').addClass('forceVisible');

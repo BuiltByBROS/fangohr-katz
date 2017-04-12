@@ -14,7 +14,7 @@
                 <ul class="contact-ul ">
                 {% for item in site.data.contact.services1 %}
                 <li class="check-list">
-                    <input type="checkbox" id="{{item.key}}" name="{{item.key}}">
+                    <input type="checkbox" id="{{item.key}}" name="services[]" value="{{item.name}}">
                     <label for="{{item.key}}" class="secondary font-content-item">{{item.name}}</label>
                 </li>
                 {% endfor %}
@@ -24,12 +24,13 @@
                 <ul class="contact-ul">
                 {% for item in site.data.contact.services2 %}
                 <li class="check-list">
-                    <input type="checkbox" id="{{item.key}}" name="{{item.key}}">
+                    <input type="checkbox" id="{{item.key}}" name="services[]" value="{{item.name}}">
                     <label for="{{item.key}}" class="secondary font-content-item">{{item.name}}</label>
                 </li>
                 {% endfor %}
                 </ul>
             </div> 
+            <input type="hidden" id="listcontact" name="listcontact" value="" >
         </div>
         <div>{{ site.data.contact.formlabel }}</div>
         
