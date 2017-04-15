@@ -31,13 +31,13 @@ slides:
  stats: "Name: Urban Zen <br> Building Type: Private Foundation <br> Services Provided: Owners Rep and Architectural Design Services", description: "A 20,000 SF building serving as the Urban Zen headquarters, a foundation headed by Donna Karan.Prior to its present use it served as an artist studio. KA was retained as Owner Representative and Building Architect to address all code and zoning issues associated with the building’s transformation to its present use." }
  
 - {location: "New York, NY", address: "170 East 78th Street", thumbnail: property_thumb_5.jpg, image: property5.jpg,
- stats: "Building Type: Residential Co-op, 34 units <br> Services provided: Building Architect and Full Architectural Services", description: "9-story 1927 Art Deco Building. Façade restoration, owner representation for local law work, window replacement, new lobby doors and awning, lobby design work and design review services of proposed Shareholder work." }
+ stats: "Building Type: Residential Co-op, 34 units <br> Services provided: Building Architect and Full Architectural Services", description: "9-story 1927 Art Deco Building. facade restoration, owner representation for local law work, window replacement, new lobby doors and awning, lobby design work and design review services of proposed Shareholder work." }
  
 - {location: "New York, NY", address: "El Museo Del Barrio", thumbnail: property_thumb_6.jpg, image: property6.jpg,
  stats: "Building Type: Museum <br> Services Provided: Full-service Architectural Design and Building Architect Services", description: "El Museo del Barrio is located on museum mile in a pre- war building constructed in 1921. Serving as design architect, KA is spearheading the 5.3 million dollar renovation of its 600 seat theater, El Teatro. Work is to include complete restoration of finishes including historic hand- painted murals on canvas, custom stained glass light fixtures, stage and seating, new freight elevator and orchestra pit elevator and all associated audio/visual and acoustic work." }
  
 - {location: "New York, NY", address: "Gramercy Townhouse", thumbnail: property_thumb_7.jpg, image: property7.jpg,
- stats: "Early 19th century 7-story Landmark District townhouse renovated by Frederick Sterner in 1908. Full gut renovation including new glass- enclosed elevator, new folded steel plate stair, roof top enlargement and cellar expansion. Extensive structural work, new mechanical, electrical, and plumbing throughout, replacement of all windows, restoration and cleaning of façade, rooftop addition and garden." }
+ stats: "Early 19th century 7-story Landmark District townhouse renovated by Frederick Sterner in 1908. Full gut renovation including new glass- enclosed elevator, new folded steel plate stair, roof top enlargement and cellar expansion. Extensive structural work, new mechanical, electrical, and plumbing throughout, replacement of all windows, restoration and cleaning of facade, rooftop addition and garden." }
  
 - {location: "New York, NY", address: "107 West 25th Street", thumbnail: property_thumb_8.jpg, image: property8.jpg,
  stats: "Building Type: Residential Co-op, 24 units <br> Services Provided: Full architectural services for roof replacement and common recreational deck",
@@ -50,12 +50,12 @@ slides:
  
 - {location: "New York, NY", address: "Midtown Landmark Building Enlargement", thumbnail: property_thumb_10.jpg, image: property10.jpg,
  stats: "Building Type: Privately owned commercial, 45,000 SF <br> Services provided: Full Architectural Services",
- description: "Expansion and conversion of 100-year-old Landmark District building from residential to commercial use. New pile foundations, extensive structural work, new mechanical, electrical, plumbing, fire alarm throughout, new elevator and egress stair, replacement of all windows, restoration and cleaning of façade, envelope expansion to create residential penthouse enlargement." }
+ description: "Expansion and conversion of 100-year-old Landmark District building from residential to commercial use. New pile foundations, extensive structural work, new mechanical, electrical, plumbing, fire alarm throughout, new elevator and egress stair, replacement of all windows, restoration and cleaning of facade, envelope expansion to create residential penthouse enlargement." }
  
  
-- {location: "Bronx, NY", address: "860 Grand Councourse", thumbnail: property_thumb_11.jpg, image: property11.jpg,
+- {location: "Bronx, NY", address: "facade Councourse", thumbnail: property_thumb_11.jpg, image: property11.jpg,
  stats: "Building Type: Residential Co-op, 111 units <br> Services Provided: Building Architect and Architectural Design Services",
- description: "7-story 1937 Landmark District Art Deco building. Local Law 11 façade repair and restoration, Building Architect review services for proposed Shareholder work and production of 10-year master plan for building repairs and restoration." }
+ description: "7-story 1937 Landmark District Art Deco building. Local Law 11 facade repair and restoration, Building Architect review services for proposed Shareholder work and production of 10-year master plan for building repairs and restoration." }
  
  
 - {location: "Brooklyn, NY", address: "111 Hicks Street", thumbnail: property_thumb_12.jpg, image: property12.jpg,
