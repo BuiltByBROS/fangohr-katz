@@ -69,7 +69,7 @@ slides:
  stats: "Building Type: Residential Co-op, 16 units <br> Services Provided: Building Architect and Architectural Design Services", description: "10-story 1902 Landmark District loft building with barrel vaulted ceiling arches and composite steel and terra cotta structure. Building Architect review services for proposed Shareholder work, building master planning for new mechanical systems throughout, sidewalk vault repair and reconstruction." }
  
  
-- {location: "New York, NY", address: "27 Bleecker StreetY", thumbnail: property_thumb_14.jpg, image: property14.jpg,
+- {location: "New York, NY", address: "27 Bleecker Street", thumbnail: property_thumb_14.jpg, image: property14.jpg,
  stats: "Building Type: Residential Co-op, 15 units <br> Services Provided: Building Architect Services", description: "7-story 1910 Landmark building with cast iron structure. Building Architect review services for proposed Shareholder work, including code and zoning investigation and impact of work on building infrastructure." }
  
  
