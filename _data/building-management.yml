@@ -38,11 +38,12 @@ slides:
  stats: "Building Type: Museum <br> Services Provided: Full-service Architectural Design and Building Architect Services", description: "El Museo del Barrio is located on museum mile in a pre- war building constructed in 1921. Serving as design architect, KA is spearheading the 5.3 million dollar renovation of its 600 seat theater, El Teatro. Work is to include complete restoration of finishes including historic hand- painted murals on canvas, custom stained glass light fixtures, stage and seating, new freight elevator and orchestra pit elevator and all associated audio/visual and acoustic work." }
  
 - {location: "New York, NY", address: "Gramercy Townhouse", thumbnail: property_thumb_7.jpg, image: property7.jpg,
- stats: "Early 19th century 7-story Landmark District townhouse renovated by Frederick Sterner in 1908. Full gut renovation including new glass- enclosed elevator, new folded steel plate stair, roof top enlargement and cellar expansion. Extensive structural work, new mechanical, electrical, and plumbing throughout, replacement of all windows, restoration and cleaning of facade, rooftop addition and garden." }
+ stats: "Building Type: Single Family Townhouse <br> Services Provided: Executive architect services", 
+ description: "Early 19th century 7-story Landmark District townhouse renovated by Frederick Sterner in 1908. Full gut renovation including new glass- enclosed elevator, new folded steel plate stair, roof top enlargement and cellar expansion. Extensive structural work, new mechanical, electrical, and plumbing throughout, replacement of all windows, restoration and cleaning of facade, rooftop addition and garden." }
  
 - {location: "New York, NY", address: "107 West 25th Street", thumbnail: property_thumb_8.jpg, image: property8.jpg,
  stats: "Building Type: Residential Co-op, 24 units <br> Services Provided: Full architectural services for roof replacement and common recreational deck",
- description: "6-story 1905 Garment District loft building. Full service architectural work for roof replacement and new common recreational deck including asbestos abatement and replacement of water tower. Services include design through construction phase administration." }
+ description: "6-story 1905 Garment District loft building. Full service architectural work for roof replacement and new common recreational deck including asbestos abatement and replacement of tower. Services include design through construction phase administration." }
  
 - {location: "New York, NY", address: "52 Thomas Street", thumbnail: property_thumb_9.jpg, image: property9.jpg,
  stats: "Building Type: Residential Condo, 120 units <br> Services Provided: Architectural Consulting Services",
