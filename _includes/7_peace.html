@@ -35,7 +35,7 @@
                 
                 {% for item in site.data.peace.team reversed %}
                 <div class="col-4 col-lg-2 col-md-3 col-sm-4">
-                    <div class="grid-item" onclick="moveTo(6, {{ forloop.index }},'.overlap-gallery', true )">
+                    <div class="grid-item" onclick="moveTo(7, {{ forloop.index }},'.overlap-gallery', true )">
                         <span class="blue-filter"></span>
                         <img src="{{ site.url }}{{ site.baseurl }}/assets/images/team/{{{item.thumbnail}}" alt="{item.info}}" class="img-fluid property-image">
                         <div class="detail-tooltip">{{item.name}}<div class="detail-tooltip-location">{{item.position}}</div></div>
@@ -74,7 +74,7 @@
         
     </div>
     
-    <div class="galleryCloseBtn navigation-down text-center" onclick="closeGallery(this, 5)">
+    <div class="galleryCloseBtn navigation-down text-center" onclick="closeGallery(this, 6)">
         <span  class="back-to-menu black">
             <img src="{{ site.url }}{{ site.baseurl }}/assets/images/close-white.svg" alt="Menu">
         </span>
