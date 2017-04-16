@@ -17,7 +17,7 @@ block_2:
 
 slides:
 
-- {name: "Carhartt WIP Flagship Store", location: "New York City", thumbnail: 1.jpg, image: 1.jpg, credits: MEP Engineer: Mottola Rini Engineers PC\n\Structural Engineer: FMO Engineering PC \n\ Builder: James M Barb Construction Inc., description: "Gut renovation of Soho Landmark district retail shop. In association with Andrea Caputo Architecture."}
+- {name: "Carhartt WIP Flagship Store", location: "New York City", thumbnail: 1.jpg, image: 1.jpg, credits: "MEP Engineer: Mottola Rini Engineers PC \n Structural Engineer: FMO Engineering PC \n Builder: James M Barb Construction Inc.", description: "Gut renovation of Soho Landmark district retail shop. In association with Andrea Caputo Architecture."}
 - {name: "Carhartt WIP Flagship Store", location: "New York City", thumbnail: 2.jpg, image: 2.jpg, credits: "MEP Engineer: Mottola Rini Engineers PC \n Structural Engineer: FMO Engineering PC \n Builder: James M Barb Construction Inc.", description: "Gut renovation of Soho Landmark district retail shop. In association with Andrea Caputo Architecture.", hideThumb: false}
 
 - {name: "Sundaram Tagore Gallery", location: "New York City", thumbnail: 3.jpg, image: 3.jpg, credits: "MStructural Engineer: H2 Consulting \n MEP Engineer: Mariano Molina Consulting Engineers \n Builder: Walker Ridge Construction \n Photography: Thomas Leech", description: "Gut Renovation from taxi garage to 4000 SF Chelsea Gallery."}
