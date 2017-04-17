@@ -173,7 +173,7 @@ function goToAbout(e) {
 
             initFP('.' + topicClass);
             $.fn.fullpage.silentMoveTo(2);
-            $.fn.fullpage.moveTo(5);
+            $.fn.fullpage.moveTo(4);
             $('#topicClassName').val('.' + topicClass);
 
         }, 300);
