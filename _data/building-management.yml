@@ -1,90 +1,141 @@
-title: Building Management Support
-image: /assets/images/building-management/building-management-cover.jpg
-
-title_1: Building Solutions
-block_1: Katz Architecture works closely with building managers, co-op and condo boards, and design professionals to ensure they are prepared for everything from long-term masterplanning to last-minute emergencies.
-
-title_2: "Our Services Include:"
+--- 
+block_1: "Katz Architecture works closely with building managers, co-op and condo boards, and design professionals to ensure they are prepared for everything from long-term masterplanning to last-minute emergencies."
 block_2: 
-- Review of shareholder projects 
-- Common space design 
-- FISP Local Law 11 / DOB & LPC filings
-- Emergency repairs & compliance 
-- Consultant coordination 
-- Construction phase oversight
-
-
-title_properties: Managed Properties
-slides:
-
-- {location: "New York, NY", address: "240 Centre Street", thumbnail: property_thumb_1.jpg, image: property1.jpg, 
- stats: "Name: Police Building <br> Building Type: Residential Co-op, 55 units <br> Services Provided: Building Architect Services", description: "1909 Beaux Arts NYC Landmark building listed on the National Register of Historic Places. Design and construction review services on behalf of the Board to assess proposed building renovation work. Code and zoning assessment and potential impact on building infrastructure."}
-
-
-- {location: "New York, NY", address: "243 West End Avenue", thumbnail: property_thumb_2.jpg, image: property2.jpg, stats: "Building Type: Residential Co-op, 183 units <br> Services Provided: Building Architect Services", description: "15-story 1925 Landmark District building designed by Emery Roth. Design and construction review services on behalf of the Board to assess proposed Shareholder renovation work for code compliance and impact on building infrastructure." }
-
-- {location: "New York, NY", address: "46 West 95th Street", thumbnail: property_thumb_3.jpg, image: property3.jpg,
- stats: "Building Type: Residential Co-op, 36 units <br> Services Provided: Full-service Architectural Design and Building Architect Services", description: "
- 10-story 1923 Landmark District building designed by Carrere and Hastings, who also designed the New York Public Library. Gut renovation of lobby, new entry door and awning, design of new mailroom, sidewalk replacement, renovation of common halls and stairways, refurbishment of backyard access stair, design and installation of common backyard space including new stone deck and structural concrete retaining wall." } 
- 
-- {location: "New York, NY", address: "705/711 Greenwich Street", thumbnail: property_thumb_4.jpg, image: property4.jpg,
- stats: "Name: Urban Zen <br> Building Type: Private Foundation <br> Services Provided: Owners Rep and Architectural Design Services", description: "20,000 SF building serving as the Urban Zen headquarters, a foundation headed by Donna Karan. Prior to its present use it served as an artist studio. KA was retained as Owner Representative and Building Architect to address all repair, code and zoning issues associated with the building’s transformation to its present use." }
- 
-- {location: "New York, NY", address: "170 East 78th Street", thumbnail: property_thumb_5.jpg, image: property5.jpg,
- stats: "Building Type: Residential Co-op, 34 units <br> Services provided: Building Architect and Full Architectural Services", description: "9-story 1927 Art Deco Building. facade restoration, owner representation for local law work, window replacement, new lobby doors and awning, lobby design work and design review services of proposed Shareholder work." }
- 
-- {location: "New York, NY", address: "El Museo Del Barrio", thumbnail: property_thumb_6.jpg, image: property6.jpg,
- stats: "Building Type: Museum <br> Services Provided: Full-service Architectural Design and Building Architect Services", description: "El Museo del Barrio is located on museum mile in a pre- war building constructed in 1921. Serving as design architect, KA is spearheading the 5.3 million dollar renovation of its 600 seat theater, El Teatro. Work is to include complete restoration of finishes including historic hand- painted murals on canvas, custom stained glass light fixtures, stage and seating, new freight elevator and orchestra pit elevator and all associated audio/visual and acoustic work." }
- 
-- {location: "New York, NY", address: "Gramercy Townhouse", thumbnail: property_thumb_7.jpg, image: property7.jpg,
- stats: "Building Type: Single Family Townhouse <br> Services Provided: Executive architect services", 
- description: "Early 19th century 7-story Landmark District townhouse renovated by Frederick Sterner in 1908. Full gut renovation including new glass- enclosed elevator, new folded steel plate stair, roof top enlargement and cellar expansion. Extensive structural work, new mechanical, electrical, and plumbing throughout, replacement of all windows, restoration and cleaning of facade, rooftop addition and garden." }
- 
-- {location: "New York, NY", address: "107 West 25th Street", thumbnail: property_thumb_8.jpg, image: property8.jpg,
- stats: "Building Type: Residential Co-op, 24 units <br> Services Provided: Full architectural services for roof replacement and common recreational deck",
- description: "6-story 1905 Garment District loft building. Full service architectural work for roof replacement and new common recreational deck including asbestos abatement and replacement of tower. Services include design through construction phase administration." }
- 
-- {location: "New York, NY", address: "52 Thomas Street", thumbnail: property_thumb_9.jpg, image: property9.jpg,
- stats: "Building Type: Residential Condo, 120 units <br> Services Provided: Architectural Consulting Services",
- description: "7-story Landmark District loft building composed of four buildings constructed in 1915 as shoe factories and combined as a Condo in 2006. The project addresses replacement of a deficient building-wide mechanical system and LPC objections regarding visibility of equipment. Code and zoning investigation, construction document production, LPC submission and presentations." }
- 
- 
-- {location: "New York, NY", address: "Midtown Landmark Building Enlargement", thumbnail: property_thumb_10.jpg, image: property10.jpg,
- stats: "Building Type: Privately owned commercial, 45,000 SF <br> Services provided: Full Architectural Services",
- description: "Expansion and conversion of 100-year-old Landmark District building from residential to commercial use. New pile foundations, extensive structural work, new mechanical, electrical, plumbing, fire alarm throughout, new elevator and egress stair, replacement of all windows, restoration and cleaning of facade, envelope expansion to create residential penthouse enlargement." }
- 
- 
-- {location: "Bronx, NY", address: "860 Grand Councourse", thumbnail: property_thumb_11.jpg, image: property11.jpg,
- stats: "Building Type: Residential Co-op, 111 units <br> Services Provided: Building Architect and Architectural Design Services",
- description: "7-story 1937 Landmark District Art Deco building. Local Law 11 facade repair and restoration, Building Architect review services for proposed Shareholder work and production of 10-year master plan for building repairs and restoration." }
- 
- 
-- {location: "Brooklyn, NY", address: "111 Hicks Street", thumbnail: property_thumb_12.jpg, image: property12.jpg,
- stats: "Name: Hotel St. George <br> Building Type: Residential Co-op, 275 units <br> Services Provided: Full-service Architectural Design",
- description: "30-Story 1930 Art Deco Landmark District building designed by Emery Roth as the Hotel St. George. Gut renovation of 1,800 SF lobby built on three levels including new stairs, concierge station, mailroom, upper lobby, new mechanical system, new lighting and finishes." }
- 
- 
-- {location: "New York, NY", address: "4 West 16th Street", thumbnail: property_thumb_13.jpg, image: property13.jpg, 
- stats: "Building Type: Residential Co-op, 16 units <br> Services Provided: Building Architect and Architectural Design Services", description: "10-story 1902 Landmark District loft building with barrel vaulted ceiling arches and composite steel and terra cotta structure. KA provided building Architect review services for proposed Shareholder work, as well as building master planning for new mechanical systems throughout, sidewalk vault repair and reconstruction." }
- 
- 
-- {location: "New York, NY", address: "27 Bleecker Street", thumbnail: property_thumb_14.jpg, image: property14.jpg,
- stats: "Building Type: Residential Co-op, 15 units <br> Services Provided: Building Architect Services", description: "7-story 1910 Landmark building with cast iron structure. Building Architect review services for proposed Shareholder work, including code and zoning investigation and impact of work on building infrastructure." }
- 
- 
-- {location: "New York, NY", address: "147 West 22nd Street", thumbnail: property_thumb_15.jpg, image: property15.jpg,
- stats: "Building Type: Residential Co-op, 15 units <br> Services Provided: Building Architect and Architectural Design Services", description: "10-story 1906 Landmark District loft building converted to co-ops in 1976. Design and construction review services including code and zoning assessment on behalf of the Board to assess proposed building renovation work and potential impact on building infrastructure." }
- 
-- {location: "New York, NY", address: "12 West 18th Street", thumbnail: property_thumb_16.jpg, image: property16.jpg,
- stats: "Building Type: Residential Condo, 13 units <br> Services Provided: Building Architect Services",
- description: "9-story Landmark District loft building with barrel vaulted ceiling arches and composite steel and terra cotta structure. Building Architect review services for proposed Shareholder work." }
- 
-- {location: "New York, NY", address: "177 Duane Street", thumbnail: property_thumb_17.jpg, image: property17.jpg,
- stats: "Building Type: Residential Co-op, 11 units <br> Services Provided: Building Architect Services",
- description: "6-story 1890 Landmark District loft building. Building Architect review services for proposed Shareholder work." }
- 
-- {location: "New York, NY", address: "258 Broadway", thumbnail: property_thumb_18.jpg, image: property18.jpg,
- stats: "Name: City Hall Tower <br> Building Type: Residential Co-op, 45 units <br> Services Provided: Building Architect Services",
- description: "Pre-war 8-story Landmark Tribeca Co-op built in 1915. Building Architect review services for proposed Shareholder work, including code and zoning investigation and impact of work on building infrastructure." }
- 
-
+  - "Review of shareholder projects"
+  - "Common space design"
+  - "FISP Local Law 11 / DOB & LPC filings"
+  - "Emergency repairs & compliance"
+  - "Consultant coordination"
+  - "Construction phase oversight"
+image: /assets/images/building-management/building-management-cover.jpg
+slides: 
+  - 
+    address: "240 Centre Street"
+    description: "1909 Beaux Arts NYC Landmark building listed on the National Register of Historic Places. Design and construction review services on behalf of the Board to assess proposed building renovation work. Code and zoning assessment and potential impact on building infrastructure."
+    image: property1.jpg
+    location: "New York, NY"
+    stats: "Name: Police Building <br> Building Type: Residential Co-op, 55 units <br> Services Provided: Building Architect Services"
+    thumbnail: property_thumb_1.jpg
+  - 
+    address: "243 West End Avenue"
+    description: "15-story 1925 Landmark District building designed by Emery Roth. Design and construction review services on behalf of the Board to assess proposed Shareholder renovation work for code compliance and impact on building infrastructure."
+    image: property2.jpg
+    location: "New York, NY"
+    stats: "Building Type: Residential Co-op, 183 units <br> Services Provided: Building Architect Services"
+    thumbnail: property_thumb_2.jpg
+  - 
+    address: "46 West 95th Street"
+    description: " 10-story 1923 Landmark District building designed by Carrere and Hastings, who also designed the New York Public Library. Gut renovation of lobby, new entry door and awning, design of new mailroom, sidewalk replacement, renovation of common halls and stairways, refurbishment of backyard access stair, design and installation of common backyard space including new stone deck and structural concrete retaining wall."
+    image: property3.jpg
+    location: "New York, NY"
+    stats: "Building Type: Residential Co-op, 36 units <br> Services Provided: Full-service Architectural Design and Building Architect Services"
+    thumbnail: property_thumb_3.jpg
+  - 
+    address: "705/711 Greenwich Street"
+    description: "20,000 SF building serving as the Urban Zen headquarters, a foundation headed by Donna Karan. Prior to its present use it served as an artist studio. KA was retained as Owner Representative and Building Architect to address all repair, code and zoning issues associated with the building’s transformation to its present use."
+    image: property4.jpg
+    location: "New York, NY"
+    stats: "Name: Urban Zen <br> Building Type: Private Foundation <br> Services Provided: Owners Rep and Architectural Design Services"
+    thumbnail: property_thumb_4.jpg
+  - 
+    address: "170 East 78th Street"
+    description: "9-story 1927 Art Deco Building. facade restoration, owner representation for local law work, window replacement, new lobby doors and awning, lobby design work and design review services of proposed Shareholder work."
+    image: property5.jpg
+    location: "New York, NY"
+    stats: "Building Type: Residential Co-op, 34 units <br> Services provided: Building Architect and Full Architectural Services"
+    thumbnail: property_thumb_5.jpg
+  - 
+    address: "El Museo Del Barrio"
+    description: "El Museo del Barrio is located on museum mile in a pre- war building constructed in 1921. Serving as design architect, KA is spearheading the 5.3 million dollar renovation of its 600 seat theater, El Teatro. Work is to include complete restoration of finishes including historic hand- painted murals on canvas, custom stained glass light fixtures, stage and seating, new freight elevator and orchestra pit elevator and all associated audio/visual and acoustic work."
+    image: property6.jpg
+    location: "New York, NY"
+    stats: "Building Type: Museum <br> Services Provided: Full-service Architectural Design and Building Architect Services"
+    thumbnail: property_thumb_6.jpg
+  - 
+    address: "Gramercy Townhouse"
+    description: "Early 19th century 7-story Landmark District townhouse renovated by Frederick Sterner in 1908. Full gut renovation including new glass- enclosed elevator, new folded steel plate stair, roof top enlargement and cellar expansion. Extensive structural work, new mechanical, electrical, and plumbing throughout, replacement of all windows, restoration and cleaning of facade, rooftop addition and garden."
+    image: property7.jpg
+    location: "New York, NY"
+    stats: "Building Type: Single Family Townhouse <br> Services Provided: Executive architect services"
+    thumbnail: property_thumb_7.jpg
+  - 
+    address: "107 West 25th Street"
+    description: "6-story 1905 Garment District loft building. Full service architectural work for roof replacement and new common recreational deck including asbestos abatement and replacement of tower. Services include design through construction phase administration."
+    image: property8.jpg
+    location: "New York, NY"
+    stats: "Building Type: Residential Co-op, 24 units <br> Services Provided: Full architectural services for roof replacement and common recreational deck"
+    thumbnail: property_thumb_8.jpg
+  - 
+    address: "52 Thomas Street"
+    description: "7-story Landmark District loft building composed of four buildings constructed in 1915 as shoe factories and combined as a Condo in 2006. The project addresses replacement of a deficient building-wide mechanical system and LPC objections regarding visibility of equipment. Code and zoning investigation, construction document production, LPC submission and presentations."
+    image: property9.jpg
+    location: "New York, NY"
+    stats: "Building Type: Residential Condo, 120 units <br> Services Provided: Architectural Consulting Services"
+    thumbnail: property_thumb_9.jpg
+  - 
+    address: "Midtown Landmark Building Enlargement"
+    description: "Expansion and conversion of 100-year-old Landmark District building from residential to commercial use. New pile foundations, extensive structural work, new mechanical, electrical, plumbing, fire alarm throughout, new elevator and egress stair, replacement of all windows, restoration and cleaning of facade, envelope expansion to create residential penthouse enlargement."
+    image: property10.jpg
+    location: "New York, NY"
+    stats: "Building Type: Privately owned commercial, 45,000 SF <br> Services provided: Full Architectural Services"
+    thumbnail: property_thumb_10.jpg
+  - 
+    address: "860 Grand Councourse"
+    description: "7-story 1937 Landmark District Art Deco building. Local Law 11 facade repair and restoration, Building Architect review services for proposed Shareholder work and production of 10-year master plan for building repairs and restoration."
+    image: property11.jpg
+    location: "Bronx, NY"
+    stats: "Building Type: Residential Co-op, 111 units <br> Services Provided: Building Architect and Architectural Design Services"
+    thumbnail: property_thumb_11.jpg
+  - 
+    address: "111 Hicks Street"
+    description: "30-Story 1930 Art Deco Landmark District building designed by Emery Roth as the Hotel St. George. Gut renovation of 1,800 SF lobby built on three levels including new stairs, concierge station, mailroom, upper lobby, new mechanical system, new lighting and finishes."
+    image: property12.jpg
+    location: "Brooklyn, NY"
+    stats: "Name: Hotel St. George <br> Building Type: Residential Co-op, 275 units <br> Services Provided: Full-service Architectural Design"
+    thumbnail: property_thumb_12.jpg
+  - 
+    address: "4 West 16th Street"
+    description: "10-story 1902 Landmark District loft building with barrel vaulted ceiling arches and composite steel and terra cotta structure. KA provided building Architect review services for proposed Shareholder work, as well as building master planning for new mechanical systems throughout, sidewalk vault repair and reconstruction."
+    image: property13.jpg
+    location: "New York, NY"
+    stats: "Building Type: Residential Co-op, 16 units <br> Services Provided: Building Architect and Architectural Design Services"
+    thumbnail: property_thumb_13.jpg
+  - 
+    address: "27 Bleecker Street"
+    description: "7-story 1910 Landmark building with cast iron structure. Building Architect review services for proposed Shareholder work, including code and zoning investigation and impact of work on building infrastructure."
+    image: property14.jpg
+    location: "New York, NY"
+    stats: "Building Type: Residential Co-op, 15 units <br> Services Provided: Building Architect Services"
+    thumbnail: property_thumb_14.jpg
+  - 
+    address: "147 West 22nd Street"
+    description: "10-story 1906 Landmark District loft building converted to co-ops in 1976. Design and construction review services including code and zoning assessment on behalf of the Board to assess proposed building renovation work and potential impact on building infrastructure."
+    image: property15.jpg
+    location: "New York, NY"
+    stats: "Building Type: Residential Co-op, 15 units <br> Services Provided: Building Architect and Architectural Design Services"
+    thumbnail: property_thumb_15.jpg
+  - 
+    address: "12 West 18th Street"
+    description: "9-story Landmark District loft building with barrel vaulted ceiling arches and composite steel and terra cotta structure. Building Architect review services for proposed Shareholder work."
+    image: property16.jpg
+    location: "New York, NY"
+    stats: "Building Type: Residential Condo, 13 units <br> Services Provided: Building Architect Services"
+    thumbnail: property_thumb_16.jpg
+  - 
+    address: "177 Duane Street"
+    description: "6-story 1890 Landmark District loft building. Building Architect review services for proposed Shareholder work."
+    image: property17.jpg
+    location: "New York, NY"
+    stats: "Building Type: Residential Co-op, 11 units <br> Services Provided: Building Architect Services"
+    thumbnail: property_thumb_17.jpg
+  - 
+    address: "258 Broadway"
+    description: "Pre-war 8-story Landmark Tribeca Co-op built in 1915. Building Architect review services for proposed Shareholder work, including code and zoning investigation and impact of work on building infrastructure."
+    image: property18.jpg
+    location: "New York, NY"
+    stats: "Name: City Hall Tower <br> Building Type: Residential Co-op, 45 units <br> Services Provided: Building Architect Services"
+    thumbnail: property_thumb_18.jpg
+title: "Building Management Support"
+title_1: "Building Solutions"
+title_2: "Our Services Include:"
+title_properties: "Managed Properties"
