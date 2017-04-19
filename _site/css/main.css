@@ -182,7 +182,7 @@ div.iScrollIndicator { display: none !important; }
 
 .full-height { height: 100%; padding-top: 35px; }
 
-.team-mobile-img, .property-mobile-img { padding: 20px 0; }
+.team-mobile-img, .property-mobile-img { padding: 0 0 20px; }
 
 @media (min-width: 1200px) { .property-desktop-img { max-width: 600px !important; } }
 

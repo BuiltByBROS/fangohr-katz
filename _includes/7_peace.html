@@ -57,12 +57,14 @@
                 <div class="text-content full-height  scrollable">
                     <div class="row">
                         <div class="col-sm-6">
-                            <h2 class="font-title-detail">{{item.name}}</h2>
-                            <h4 class="font-subtitle-detail">{{item.position}}</h4>
+                            
                             <div>
                                 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/team/{{{item.thumbnail}}" alt="{item.name}}" class="team-mobile-img img-fluid hidden-sm-up float-right">
+                                <h2 class="font-title-detail">{{item.name}}</h2>
+                                <h4 class="font-subtitle-detail">{{item.position}}</h4>
                                 <p class="font-content-detail">{{item.bio}}</p>
                             </div>
+                            
                         </div>
                         <div class="col-sm-6">
                             <img src="{{ site.url }}{{ site.baseurl }}/assets/images/team/{{{item.thumbnail}}" alt="{item.name}}" class="img-fluid hidden-xs-down team-desktop-img float-right">
