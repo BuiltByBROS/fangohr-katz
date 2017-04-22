@@ -203,7 +203,7 @@ function ignoreNextDestination(index, nextIndex, direction) {
     }
 }
 
-function initFP(topicClass = '.topic') {
+function initFP(topicClass = ('.topic')) {
 
     $('#wrapper').fullpage({
 
