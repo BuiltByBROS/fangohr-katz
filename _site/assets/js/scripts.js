@@ -203,14 +203,7 @@ function ignoreNextDestination(index, nextIndex, direction) {
     }
 }
 
-//function initFP(topicClass = ('.topic')) {
-
-
-// used EC6 default topic that IE doesn't support. Changed.
-function initFP(topicClass) {
-
-topicClass = typeof topicClass !== 'undefined' ? topicClass : '.topic';
-
+function initFP(topicClass = ('.topic')) {
 
     $('#wrapper').fullpage({
 
