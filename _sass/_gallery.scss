@@ -40,7 +40,10 @@
 }
 
 .grid-container{
-    margin: 100px 0;
+    margin: 32px 0 32px;
+    @include respond-to(md) {
+        margin: 100px 0;
+    }
 }
 
 .grid-item{

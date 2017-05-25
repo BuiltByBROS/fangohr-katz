@@ -17,8 +17,8 @@
 <div id="grid-interior" class="topic topic-{{include.topic-class}} container-fluid">
     
     <h2 class="font-title hidden-sm-down">{{site.data.building-interior.title}}</h2>
-    <div class="text-content">
-            <div class="row">
+    <div class="row text-content">
+            <div class="row grid-container">
                 <!-- Gallery -->
                 {% for item in site.data.building-interior.slides %}
                     {% if item.hideThumb != false %}
