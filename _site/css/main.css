@@ -166,7 +166,7 @@ div.iScrollIndicator { display: none !important; }
 
 .blue-filter { background: rgba(0, 0, 255, 0.75); opacity: .75; z-index: 99999; }
 
-.grid-container { margin: 32px 0 32px; }
+.grid-container { margin: 32px 0 100px; }
 @media (min-width: 768px) { .grid-container { margin: 100px 0; } }
 
 .grid-item { margin: 0; position: relative; overflow: hidden; }
