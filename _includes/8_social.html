@@ -3,19 +3,19 @@
 
 <div id="topic-social" class="topic topic-{{include.topic-class}} container-fluid">
 
-        <h2 class="hidden-sm-down col-md-6 col-12 font-title">{{site.data.social.title_1}}</h2>
-        <h2 class="hidden-sm-down offset-md-6 col-md-6 col-12 font-title">{{site.data.social.title_2}}</h2>        
+        <h2 class="hidden-xs-down col-sm-6 col-12 font-title">{{site.data.social.title_1}}</h2>
+        <h2 class="hidden-xs-down offset-sm-6 col-12 font-title">{{site.data.social.title_2}}</h2>        
 
         <div class="text-content">
             <div class="row">
-                <div class="col-md-6 col-12">
+                <div class="col-sm-6 col-12">
                     <h2 class="font-title-mobile hidden-sm-up">{{site.data.social.title_1}}</h2>
                     <p class="font-content p-content">{{site.data.social.address}}</p>
                     <br>
                     <p class="font-content p-content">{{site.data.social.email}}</p>
                     <p class="font-content p-content">{{site.data.social.phone}}</p>
                 </div>
-                <div class="col-md-6 col-12">
+                <div class="col-sm-6 col-12">
                     <h2 id="social-title" class="font-title-mobile hidden-sm-up">{{site.data.social.title_2}}</h2>
                     <ul class="socialnetworks">
                         {% for item in site.data.social.networks %}

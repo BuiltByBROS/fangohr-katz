@@ -1948,19 +1948,19 @@
 
 <div id="topic-social" class="topic topic-social container-fluid">
 
-        <h2 class="hidden-sm-down col-md-6 col-12 font-title">Office</h2>
-        <h2 class="hidden-sm-down offset-md-6 col-md-6 col-12 font-title">Social</h2>        
+        <h2 class="hidden-xs-down col-sm-6 col-12 font-title">Office</h2>
+        <h2 class="hidden-xs-down offset-sm-6 col-12 font-title">Social</h2>        
 
         <div class="text-content">
             <div class="row">
-                <div class="col-md-6 col-12">
+                <div class="col-sm-6 col-12">
                     <h2 class="font-title-mobile hidden-sm-up">Office</h2>
                     <p class="font-content p-content">150 West 22nd Street 4th Fl.<br>New York, NY  10011<br><a href='https://www.google.com.uy/maps/place/150+W+22nd+St,+New+York,+NY+10011,+USA/@40.7428901,-73.9953751,17z/data=!3m1!4b1!4m5!3m4!1s0x89c259bb45f878b7:0xbefa07946ef25135!8m2!3d40.7428901!4d-73.9953751?hl=en' target='_blank' class='txt-underline'>View Map</a></p>
                     <br>
-                    <p class="font-content p-content">info@katzarch.com</p>
-                    <p class="font-content p-content">T <a href='tel:212.353.1080'>212.353.1080</a></p>
+                    <p class="font-content p-content"><a href='mailto:info@katzarch.com'>info@katzarch.com</a></p>
+                    <p class="font-content p-content"><a href='tel:212.353.1080'>212.353.1080</a></p>
                 </div>
-                <div class="col-md-6 col-12">
+                <div class="col-sm-6 col-12">
                     <h2 id="social-title" class="font-title-mobile hidden-sm-up">Social</h2>
                     <ul class="socialnetworks">
                         
@@ -1973,12 +1973,6 @@
                         <li class="font-content">
                             <a href="https://www.facebook.com/Katz-Architecture-386321861439142/" target="_blank">
                                 <img src="http://katzarch.com/assets/images/social/facebook-icon.svg" alt="Facebook">
-                            </a>
-                        </li>
-                        
-                        <li class="font-content">
-                            <a href="http://twitter.com/" target="_blank">
-                                <img src="http://katzarch.com/assets/images/social/instgram-icon.svg" alt="Instagram">
                             </a>
                         </li>
                         
@@ -2000,11 +1994,12 @@
         
 </div>
 <div class="topic topic-social topic-contact contact-form container-fluid">
-    <h2 class="font-title">Contact</h2>
+    <h2 class="font-title hidden-sm-down">Contact</h2>
+    <h2 class="font-title-mobile">Contact</h2>
     
    
     <form action="https://formspree.io/info@katzarch.com" method="POST" class="text-content">
-    <p class="font-subtitle">Need help with a project? Leave your details & we’ll be in contact:</p>
+    <p class="font-subtitle">Need help with a project? <span class='hidden-sm-down'>Leave your details & we’ll be in contact:</span></p>
         <input type="hidden" name="_next" value='http://katzarch.com/'/>
         <input type="hidden" name="_subject" value='Katz Website contact'/>
         <div class="contact-list row hidden-sm-down">
@@ -2060,8 +2055,9 @@
             </div> 
             <!--<input type="hidden" id="listcontact" name="listcontact" value="" >-->
         </div>
+        <br>    
         <div>Your Contact Info</div>
-        
+        <br>
         <div class="row">
             <div class="col-sm-6">
                 <!--<p class="font-content-textarea">Name</p>
@@ -2069,14 +2065,13 @@
         
                 <p class="font-content-textarea">Email</p>
                 <input type="email" name="_replyto" class="form-control contact-text" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" value="" required</input>-->
-            
+                
                 <textarea class="form-control contact-textarea" id="contact-textarea" name="your-contact-info"></textarea>
                 <button class="btn btn-contact" type="submit">Contact</button>
             </div>
-
         </div>
     </form>
-    <div class="contact-footer">
+    <!--<div class="contact-footer">
         <div class="row">
             <div class="col-md-4">
                 <div class="contact-footer-logo"></div>
@@ -2100,7 +2095,7 @@
             </div>
         </div>
     </div>
-    
+    -->
     <div class="navigation-down text-center mobile-relative">
     <span onclick="moveToMenu()" class="back-to-menu white">
         <img src="http://katzarch.com/assets/images/menu-back-blue.svg" alt="Menu">
