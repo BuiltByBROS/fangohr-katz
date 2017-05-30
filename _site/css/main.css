@@ -150,8 +150,8 @@ div.iScrollIndicator { display: none !important; }
 @media (min-width: 768px) { .font-title, .font-title-detail { font-size: 48px; line-height: 1.23; letter-spacing: -1.2px; } }
 @media (min-width: 992px) { .font-title, .font-title-detail { font-size: 56px; } }
 
-.font-title, .font-title-detail { letter-spacing: -1.2px; padding: 0; margin-bottom: 0; }
-@media (min-width: 768px) { .font-title, .font-title-detail { margin-bottom: 40px; letter-spacing: auto; margin-bottom: auto; } }
+.font-title, .font-title-detail, .font-title-mobile { letter-spacing: -1.2px; padding: 0; margin-bottom: 0; }
+@media (min-width: 768px) { .font-title, .font-title-detail, .font-title-mobile { margin-bottom: 40px; letter-spacing: auto; margin-bottom: auto; } }
 
 .font-title-detail { position: relative; top: 0; }
 
@@ -239,6 +239,17 @@ div.iScrollIndicator { display: none !important; }
 @media (min-width: 768px) { .contact-form .font-content-textarea { margin-top: 15px; margin-bottom: 15px; } }
 .contact-form .btn-contact { border: 1px solid #ffffff; border-radius: 0; color: #ffffff; background-color: #0000ff; margin-top: 20px; margin-bottom: 20px; font-family: Miller-TextRoman; cursor: pointer; }
 .contact-form .btn-contact:hover { background-color: rgba(255, 255, 255, 0.22); }
+
+#topic-social { font-family: Miller-TextRoman; background-color: #0000ff !important; }
+#topic-social, #topic-social .font-subtitle, #topic-social .font-subtitle-detail, #topic-social .font-title, #topic-social .font-title-detail, #topic-social .font-content { color: #ffffff !important; margin-bottom: 0; }
+#topic-social .font-title, #topic-social .font-title-detail { color: #ffffff !important; }
+#topic-social .font-title-mobile { color: #ffffff !important; font-family: Graphik; font-weight: 600; font-style: normal; font-stretch: normal; line-height: 1.17; margin: 0  0 40px 0; }
+#topic-social .font-title-mobile#social-title { margin-top: 40px; }
+#topic-social a, #topic-social a:hover { color: #ffffff !important; }
+#topic-social .txt-underline { text-decoration: underline; }
+#topic-social .socialnetworks { float: left; width: 100%; padding: 0 0 40px 0; }
+#topic-social .socialnetworks li:before { content: ''; }
+#topic-social .socialnetworks li { float: left; margin-left: 0; width: 25%; }
 
 .primary { color: #0000ff !important; }
 

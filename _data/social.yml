@@ -1,0 +1,13 @@
+title_1: Office
+title_2: Social
+
+address: "150 West 22nd Street 4th Fl.<br>New York, NY  10011<br><a href='https://www.google.com.uy/maps/place/150+W+22nd+St,+New+York,+NY+10011,+USA/@40.7428901,-73.9953751,17z/data=!3m1!4b1!4m5!3m4!1s0x89c259bb45f878b7:0xbefa07946ef25135!8m2!3d40.7428901!4d-73.9953751?hl=en' target='_blank' class='txt-underline'>View Map</a>"
+email: info@katzarch.com
+phone: "T <a href='tel:212.353.1080'>212.353.1080</a>"
+
+networks:
+
+- {icon: 'twitter-icon', name: 'Twitter', url: 'https://twitter.com/katzarch'}
+- {icon: 'facebook-icon', name: 'Facebook', url: 'https://www.facebook.com/Katz-Architecture-386321861439142/'}
+- {icon: 'instgram-icon', name: 'Instagram', url: 'http://twitter.com/'}
+- {icon: 'linkedin-icon', name: 'LinkedIn', url: 'https://www.linkedin.com/company/katz-architecture-and-project-management'}
