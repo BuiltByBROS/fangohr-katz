@@ -204,7 +204,7 @@ function ignoreNextDestination(index, nextIndex, direction) {
 }
 
 function initFP(topicClass = ('.topic')) {
-
+    topicClass = typeof topicClass !== 'undefined' ? topicClass : '.topic';
     $('#wrapper').fullpage({
 
         //Navigation
