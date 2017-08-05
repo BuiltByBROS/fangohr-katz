@@ -217,7 +217,7 @@ topicClass = typeof topicClass !== 'undefined' ? topicClass : '.topic';
         //Navigation
         // menu: '#menu',
         lockAnchors: true,
-        anchors: ['intro', 'home'],//, 'building-interior', 'renovation', 'building-management'
+        anchors: ['home'],//,  anchors: ['intro', 'home'] 'building-interior', 'renovation', 'building-management'
         navigation: false,
         navigationPosition: 'right',
         navigationTooltips: ['firstSlide', 'secondSlide'],
