@@ -47,8 +47,8 @@ $(document).ready(function () {
             $.fn.fullpage.destroy('all');
 
             initFP('.' + topicClass);
-            $.fn.fullpage.silentMoveTo(2);
-            $.fn.fullpage.moveTo(3);
+            $.fn.fullpage.silentMoveTo(1); // With cover is 2
+            $.fn.fullpage.moveTo(2);// With cover is 3
             $('#topicClassName').val('.' + topicClass);
 
         }, 300);
@@ -217,7 +217,7 @@ topicClass = typeof topicClass !== 'undefined' ? topicClass : '.topic';
         //Navigation
         // menu: '#menu',
         lockAnchors: true,
-        anchors: ['intro', 'home'],//, 'building-interior', 'renovation', 'building-management'
+        anchors: ['home'],//,  anchors: ['intro', 'home'] 'building-interior', 'renovation', 'building-management'
         navigation: false,
         navigationPosition: 'right',
         navigationTooltips: ['firstSlide', 'secondSlide'],
