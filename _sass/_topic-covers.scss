@@ -36,6 +36,12 @@
   color: _palette(_katz-primary);
 }
 
+.topic.secondary {
+  .font-title{
+    color: _palette(_katz-secondary)!important;
+  }
+}
+
 .font-title, .font-title-mobile {
   letter-spacing: -1.2px;
   padding:0;
