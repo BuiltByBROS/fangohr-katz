@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+  {% include _parts/head.html %}
+  <body>
+
+    {% include _parts/header.html %}
+    <section id="wrapper">
+      
+      <!-- <div class="topic topic-home topic-cover cover">{% include 1_cover.html %}</div> -->
+      <div class="topic topic-home menu">{% include 2_menu.html %}</div>
+      
+      {% include 3_building-interior.html topic-class="building-interior"  %}
+      {% include 4_renovation.html topic-class="renovation" %}
+      {% include 5_building-management.html topic-class="building-management" %}
+      {% include 6_zoning.html topic-class="zoning" %}
+      {% include 7_peace.html topic-class="peace" %}
+      {% include 8_social.html topic-class="social" %}
+      
+
+      <input type="hidden" id="topicClassName" value="topic-home">
+    </section>
+
+    <!--{% include footer.html %}-->
+
+    <!-- JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha256-+kIbbrvS+0dNOjhmQJzmwe/RILR/8lb/+4+PUNVW09k=" crossorigin="anonymous"></script>
+    <script src="{{ site.url }}{{ site.baseurl }}/assets/js/scrolloverflow.min.js"></script>
+    <script src="{{ site.url }}{{ site.baseurl }}/assets/js/jquery.fullpage.extensions.min.js"></script>
+    <!--<script src="{{ site.url }}{{ site.baseurl }}/assets/js/fullpage.min.js"></script>-->
+    <script src="{{ site.url }}{{ site.baseurl }}/assets/js/scripts.js"></script>
+
+    <!-- G Analytics -->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-10901087-1', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+  </body>
+</html>

@@ -1,0 +1,13 @@
+title_1: Office
+title_2: Social
+
+address: "305 7th Avenue, 20th Floor<br>New York, NY 10001<br><a href='https://www.google.com/maps/place/305+7th+Ave,+New+York,+NY+10001/@40.7466457,-73.9955523,17z/data=!3m1!4b1!4m5!3m4!1s0x89c259aff514ac9f:0xc0e0dd395d27513!8m2!3d40.7466457!4d-73.9933636' target='_blank' class='txt-underline'>View Map</a>"
+email: "<a href='mailto:info@katzarch.com'>info@katzarch.com</a>"
+phone: "<a href='tel:212.353.1080'>212.353.1080</a>"
+
+networks:
+
+- {icon: 'twitter-icon', name: 'Twitter', url: 'https://twitter.com/katzarch'}
+- {icon: 'facebook-icon', name: 'Facebook', url: 'https://www.facebook.com/Katz-Architecture-386321861439142/'}
+# - {icon: 'instgram-icon', name: 'Instagram', url: 'http://twitter.com/'}
+- {icon: 'linkedin-icon', name: 'LinkedIn', url: 'https://www.linkedin.com/company/katz-architecture-and-project-management'}

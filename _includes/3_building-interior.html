@@ -1,0 +1,72 @@
+<!-- <div class="topic topic-hidden topic-{{include.topic-class}} cover">{% include 1_cover.html %}</div> -->
+<div class="topic topic-hidden topic-{{include.topic-class}} menu">{% include 2_menu.html %}</div>
+
+{% assign cover_img = site.url | append: site.baseurl | append: site.data.building-interior.image %}
+
+{% include _parts/topic-cover.html 
+    topic-class=include.topic-class
+    title=site.data.building-interior.title
+    image= cover_img
+%}
+
+{% include _parts/content-two-cols.html 
+    topic-class=include.topic-class
+    data=site.data.building-interior
+%}
+
+<div id="grid-interior" class="topic topic-{{include.topic-class}} container-fluid">
+    
+    <h2 class="font-title hidden-sm-down">{{site.data.building-interior.title}}</h2>
+    <div class="row text-content">
+            <div class="row grid-container">
+                <!-- Gallery -->
+                {% for item in site.data.building-interior.slides %}
+                    {% if item.hideThumb != false %}
+                        <div class="col-20p">
+                            <!-- With cover this is moveTo(6 instead of 5 -->
+                            <div class="grid-item" onclick="moveTo(5, {{ forloop.index }},'.overlap-gallery', true )">
+                                <span class="gray-filter"></span>
+                                <img src="{{ site.url }}{{ site.baseurl }}/assets/images/building-interior/slides/{{{item.thumbnail}}" alt="{item.name}}" class="img-fluid property-image">
+                                <div class="detail-tooltip">{{item.name}}<div class="detail-tooltip-location">{{item.location}}</div></div>
+                            </div>
+                        </div>
+                    {% endif %}
+                {% endfor %}
+            </div>
+    </div>
+     {% include _parts/back-to-menu.html %}
+</div>
+
+<div class="topic topic-{{include.topic-class}} container-fluid gallery-container ignore">
+
+    <div class="overlap-gallery container-fluid hidden">  
+        {% for item in site.data.building-interior.slides %}
+            <div class="slide">
+                <img src="{{ site.url }}{{ site.baseurl }}/assets/images/building-interior/slides/{{{item.thumbnail}}" alt="{{item.name}}" class="img-fluid property-image">
+            </div>
+
+        
+            <input type="hidden" id="{{ forloop.index0 }}_info_name" value="{{item.name}}">
+            <input type="hidden" id="{{ forloop.index0 }}_info_credits" value="{{item.credits}}">
+            <input type="hidden" id="{{ forloop.index0 }}_info_description" value="{{item.description}}">
+        {% endfor %}
+    </div>
+
+
+    <!-- tooltip -->
+    <div id="{{ forloop.index }}_info" class="info-credits hidden">
+        <img class="close-info"  data-target="{{ forloop.index0 }}_info" src="{{ site.url }}{{ site.baseurl }}/assets/images/close-blue.svg">
+        <h6 class="name"></h6>
+        <p class="description"></p>
+        <p class="credits"></p>
+    </div>
+
+    <div class="info-button" data-target="_info"></div>
+    
+    <!-- Width cover this is closeGallery(this, 5) -->
+    <div id="galleryCloseBtn" class="galleryCloseBtn navigation-down text-center" onclick="closeGallery(this, 4)">
+        <span  class="back-to-menu black">
+            <img src="{{ site.url }}{{ site.baseurl }}/assets/images/close-white.svg" alt="Menu">
+        </span>
+    </div>
+</div>

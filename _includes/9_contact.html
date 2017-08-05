@@ -1,0 +1,76 @@
+<div class="topic topic-social topic-{{include.topic-class}} contact-form container-fluid">
+    <h2 class="font-title hidden-sm-down">{{ site.data.contact.title }}</h2>
+    <h2 class="font-title-mobile hidden-md-up">{{ site.data.contact.title }}</h2>
+    
+   
+    <form action="https://formspree.io/{{ site.email }}" method="POST" class="text-content">
+    <p class="font-subtitle">{{ site.data.contact.subtitle }}</p>
+        <input type="hidden" name="_next" value='{{ site.url }}{{ site.baseurl }}/'/>
+        <input type="hidden" name="_subject" value='{{ site.contact-title }}'/>
+        <div class="contact-list row hidden-sm-down">
+            <div class="col-sm-6 col-md-4 ">
+                <ul class="contact-ul ">
+                {% for item in site.data.contact.services1 %}
+                <li class="check-list">
+                    <input type="checkbox" id="{{item.key}}" name="services[]" value="{{item.name}}">
+                    <label for="{{item.key}}" class="secondary font-content-item">{{item.name}}</label>
+                </li>
+                {% endfor %}
+                </ul>
+            </div>
+            <div class="col-sm-6 col-md-5">
+                <ul class="contact-ul">
+                {% for item in site.data.contact.services2 %}
+                <li class="check-list">
+                    <input type="checkbox" id="{{item.key}}" name="services[]" value="{{item.name}}">
+                    <label for="{{item.key}}" class="secondary font-content-item">{{item.name}}</label>
+                </li>
+                {% endfor %}
+                </ul>
+            </div> 
+            <!--<input type="hidden" id="listcontact" name="listcontact" value="" >-->
+        </div>
+        <br>    
+        <div>{{ site.data.contact.formlabel }}</div>
+        <br>
+        <div class="row">
+            <div class="col-sm-6">
+                <!--<p class="font-content-textarea">Name</p>
+                <input type="text" class="form-control contact-text" name="name"></input>
+        
+                <p class="font-content-textarea">Email</p>
+                <input type="email" name="_replyto" class="form-control contact-text" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" value="" required</input>-->
+                
+                <textarea class="form-control contact-textarea" id="contact-textarea" name="your-contact-info"></textarea>
+                <button class="btn btn-contact" type="submit">Contact</button>
+            </div>
+        </div>
+    </form>
+    <!--<div class="contact-footer">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="contact-footer-logo"></div>
+                <div class="contact-footer-tagline" onclick="goToAbout(this);">
+                    <p>Katz Architecture & <br> Project Management</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="contact-footer-tagline">
+                    <p>305 7th Avenue, 20th Floor
+                     <br>New York, NY 10001</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="contact-footer-tagline">
+                    <p>
+                        <a href="mailto:info@katzarch.com" class="footer-link">info@katzarch.com</a> 
+                        <br> 
+                        <a href="tel:+12123531080">T 212.353.1080</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    -->
+    {% include _parts/back-to-menu.html class="mobile-relative" %}
+</div>

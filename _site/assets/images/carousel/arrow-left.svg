@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="36px" height="36px" viewBox="0 0 36 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>button / arrow left</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="button-/-arrow-left">
+            <rect id="bounds" fill-opacity="0.5" fill="#7B7B7B" opacity="0.5" x="0" y="0" width="36" height="36"></rect>
+            <path d="M16.313715,10.5857875 C17.09476,9.8047375 18.36109,9.8047375 19.142135,10.5857875 L31.870025,23.3136975 C32.651125,24.0947975 32.651125,25.3610975 31.870025,26.1420975 C31.089025,26.9231975 29.822725,26.9231975 29.041625,26.1420975 L17.727925,14.8284275 L6.414225,26.1420975 C5.633125,26.9231975 4.366825,26.9231975 3.585825,26.1420975 C2.804725,25.3610975 2.804725,24.0947975 3.585825,23.3136975 L16.313715,10.5857875 Z" id="path0_stroke-copy-3" fill="#FFFFFF" transform="translate(17.727925, 18.363961) rotate(-90.000000) translate(-17.727925, -18.363961) "></path>
+        </g>
+    </g>
+</svg>

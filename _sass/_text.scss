@@ -1,0 +1,58 @@
+.text-content{
+    font-family: Miller-TextRoman;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: _palette(_katz-primary);
+
+    li {
+        list-style-type: none;
+        margin-left: -40px;
+    
+        &:before {
+            content: '— ';
+        }
+    }
+}
+
+.font-subtitle{
+    font-family: Miller-Text;
+	font-size: 16px;
+	font-weight: bold;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: 1.19;
+	letter-spacing: normal;
+    color: _palette(_katz-primary);
+}
+
+.font-subtitle-detail {
+    @extend .font-subtitle;
+    color: _palette(_katz-lightgray);
+    position: relative;
+    // padding-left: 5px;
+    font-weight: normal;
+    line-height: 1.5;
+    @include respond-to(md) {
+        padding-bottom: 42px;
+    }
+}
+
+.font-content-detail {
+    @extend .text-content;
+    position: relative;
+    // padding-left: 5px;
+}
+
+.font-content-detail-italic {
+    @extend .text-content;
+    font-style: italic;
+    position: relative;
+    margin-bottom: 24px;
+    @include respond-to(sm) {
+
+    }
+}

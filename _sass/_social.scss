@@ -1,0 +1,50 @@
+#topic-social {
+  font-family: Miller-TextRoman;
+  background-color: _palette(_katz-primary) !important;
+  &, .font-subtitle, .font-title, .font-content{
+      color: _palette(_katz-secondary) !important;
+      margin-bottom:0;
+  }
+  
+
+  .font-title{
+     color: _palette(_katz-secondary) !important; 
+  }
+
+  .font-title-mobile{
+    color: _palette(_katz-secondary) !important; 
+    font-family: Graphik, Arial;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.17;
+    margin:0  0 40px 0;
+
+    &#social-title{
+        margin-top: 40px;
+    }
+  }
+
+  a, a:hover{
+      color:  _palette(_katz-secondary) !important; 
+  }
+
+  .txt-underline{
+      text-decoration: underline;
+  }
+
+  .socialnetworks{
+    float:left;
+    width: 100%;
+    padding: 0 0 40px 0;
+
+    li:before{
+      content: '';
+    }
+    li{
+        float: left;
+        margin-left:0;
+        width: 25%;
+    }
+  }
+}

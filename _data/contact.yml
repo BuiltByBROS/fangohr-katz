@@ -1,0 +1,14 @@
+title: Contact
+subtitle: "Need help with a project?"
+formlabel: Your Contact Info
+
+services1:
+- {name: Building Architecture, key: building-architecture }
+- {name: Interior Architecture, key: interior-architecture}
+- {name: Renovation, key: renovation}
+- {name: Capital Improvement , key: capital-improvement }
+services2:
+- {name: Building Management Support, key: building-management}
+- {name: Historic Preservation, key: historic-preservation}
+- {name: Code Consultation & Review, key: consultation}
+- {name: Building Architect of Record, key: building-architecture-record}
