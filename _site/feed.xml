@@ -4,10 +4,10 @@
     <title>Katz-Architecture</title>
     <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
 </description>
-    <link>http://107.170.2.176/</link>
-    <atom:link href="http://107.170.2.176/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 17 Apr 2017 21:47:59 -0300</pubDate>
-    <lastBuildDate>Mon, 17 Apr 2017 21:47:59 -0300</lastBuildDate>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 05 Aug 2017 15:35:33 -0300</pubDate>
+    <lastBuildDate>Sat, 05 Aug 2017 15:35:33 -0300</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
     
   </channel>

@@ -17,7 +17,7 @@
   top: 32px;
   position: absolute;
   padding-right: 15px;
-  font-family: Graphik;
+  font-family: Graphik, Arial;
   font-weight: 600;
   font-style: normal;
   font-stretch: normal;
@@ -36,7 +36,13 @@
   color: _palette(_katz-primary);
 }
 
-.font-title {
+.topic.secondary {
+  .font-title{
+    color: _palette(_katz-secondary)!important;
+  }
+}
+
+.font-title, .font-title-mobile {
   letter-spacing: -1.2px;
   padding:0;
   margin-bottom: 0; 

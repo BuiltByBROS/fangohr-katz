@@ -111,17 +111,14 @@ function check(elem) {
 // Functions to move ==================================
 // ====================================================
 function closeGallery(e, backToSection) {
+    $(e).parent().addClass('hidden');
+    $('.gallery-container').addClass('ignore');
+
     var topicClass = $('#topicClassName').val();
     $.fn.fullpage.reBuild;
     $.fn.fullpage.destroy('all');
     initFP(topicClass);
-
     $.fn.fullpage.silentMoveTo(backToSection);    
-    $(e).parent().addClass('hidden');
-    $('.gallery-container').addClass('ignore');
-
-    console.log(e);
-    console.log(backToSection);
 }
 
 
@@ -206,7 +203,14 @@ function ignoreNextDestination(index, nextIndex, direction) {
     }
 }
 
-function initFP(topicClass = '.topic') {
+//function initFP(topicClass = ('.topic')) {
+
+
+// used EC6 default topic that IE doesn't support. Changed.
+function initFP(topicClass) {
+
+topicClass = typeof topicClass !== 'undefined' ? topicClass : '.topic';
+
 
     $('#wrapper').fullpage({
 

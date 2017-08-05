@@ -1,0 +1,35 @@
+<!-- <div class="topic topic-hidden topic-{{include.topic-class}} cover">{% include 1_cover.html %}</div> -->
+<div class="topic topic-hidden topic-{{ include.topic-class }} menu">{% include 2_menu.html %}</div>
+
+<div id="topic-social" class="topic topic-{{include.topic-class}} container-fluid">
+
+        <h2 class="hidden-xs-down col-sm-6 col-12 font-title">{{site.data.social.title_1}}</h2>
+        <h2 class="hidden-xs-down offset-sm-6 col-12 font-title">{{site.data.social.title_2}}</h2>        
+
+        <div class="text-content">
+            <div class="row">
+                <div class="col-sm-6 col-12">
+                    <h2 class="font-title-mobile hidden-sm-up">{{site.data.social.title_1}}</h2>
+                    <p class="font-content p-content">{{site.data.social.address}}</p>
+                    <br>
+                    <p class="font-content p-content">{{site.data.social.email}}</p>
+                    <p class="font-content p-content">{{site.data.social.phone}}</p>
+                </div>
+                <div class="col-sm-6 col-12">
+                    <h2 id="social-title" class="font-title-mobile hidden-sm-up">{{site.data.social.title_2}}</h2>
+                    <ul class="socialnetworks">
+                        {% for item in site.data.social.networks %}
+                        <li class="font-content">
+                            <a href="{{item.url}}" target="_blank">
+                                <img src="{{ site.url }}{{ site.baseurl }}/assets/images/social/{{item.icon}}.svg" alt="{{item.name}}">
+                            </a>
+                        </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+        </div>
+        {% include _parts/nav-down.html %}
+        
+</div>
+{% include 9_contact.html topic-class="contact" %}

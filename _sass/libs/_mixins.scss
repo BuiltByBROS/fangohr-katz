@@ -101,7 +101,7 @@ $breakpoints: (
             @if $primary-color == _palette(_katz-secondary) {
                 background: url("../assets/images/white-check.svg") no-repeat center center;
             } @else {
-                background: url("../assets/images/blue-check.svg") no-repeat center center;
+                background: url("../assets/images/gray-check.svg") no-repeat center center;
             }
             
             background-size: contain;

@@ -13,10 +13,23 @@
     }
 
   }
+  
+  .font-title-mobile{
+    color: _palette(_katz-secondary) !important; 
+    font-family: Graphik, Arial;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.17;
+    margin:10px  0 40px 0;
+  }
+
 
   .font-title{
      color: _palette(_katz-secondary) !important; 
   }
+
+  
 
   .text-content{
       color: _palette(_katz-secondary) !important; 
@@ -70,6 +83,7 @@
     border: 1px solid _palette(_katz-secondary);
     border-radius: 0;
     color: _palette(_katz-secondary);
+    float: right;
     background-color: _palette(_katz-primary);
     margin-top: 20px;
     margin-bottom: 20px;

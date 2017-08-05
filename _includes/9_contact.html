@@ -1,15 +1,13 @@
-<div class="topic topic-hidden topic-{{include.topic-class}} cover">{% include 1_cover.html %}</div>
-<div class="topic topic-hidden topic-{{ include.topic-class }} menu">{% include 2_menu.html %}</div>
-
-<div class="topic topic-{{include.topic-class}} contact-form container-fluid">
-    <h2 class="font-title">{{ site.data.contact.title }}</h2>
+<div class="topic topic-social topic-{{include.topic-class}} contact-form container-fluid">
+    <h2 class="font-title hidden-sm-down">{{ site.data.contact.title }}</h2>
+    <h2 class="font-title-mobile hidden-md-up">{{ site.data.contact.title }}</h2>
     
    
     <form action="https://formspree.io/{{ site.email }}" method="POST" class="text-content">
     <p class="font-subtitle">{{ site.data.contact.subtitle }}</p>
         <input type="hidden" name="_next" value='{{ site.url }}{{ site.baseurl }}/'/>
         <input type="hidden" name="_subject" value='{{ site.contact-title }}'/>
-        <div class="contact-list row hidden-xs-down">
+        <div class="contact-list row hidden-sm-down">
             <div class="col-sm-6 col-md-4 ">
                 <ul class="contact-ul ">
                 {% for item in site.data.contact.services1 %}
@@ -32,8 +30,9 @@
             </div> 
             <!--<input type="hidden" id="listcontact" name="listcontact" value="" >-->
         </div>
+        <br>    
         <div>{{ site.data.contact.formlabel }}</div>
-        
+        <br>
         <div class="row">
             <div class="col-sm-6">
                 <!--<p class="font-content-textarea">Name</p>
@@ -41,14 +40,13 @@
         
                 <p class="font-content-textarea">Email</p>
                 <input type="email" name="_replyto" class="form-control contact-text" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" value="" required</input>-->
-            
+                
                 <textarea class="form-control contact-textarea" id="contact-textarea" name="your-contact-info"></textarea>
                 <button class="btn btn-contact" type="submit">Contact</button>
             </div>
-
         </div>
     </form>
-    <div class="contact-footer">
+    <!--<div class="contact-footer">
         <div class="row">
             <div class="col-md-4">
                 <div class="contact-footer-logo"></div>
@@ -58,7 +56,8 @@
             </div>
             <div class="col-md-4">
                 <div class="contact-footer-tagline">
-                    <p>150 West 22nd Street 4th Fl. <br> New York, NY 10011</p>
+                    <p>305 7th Avenue, 20th Floor
+                     <br>New York, NY 10001</p>
                 </div>
             </div>
             <div class="col-md-4">
@@ -72,6 +71,6 @@
             </div>
         </div>
     </div>
-    
+    -->
     {% include _parts/back-to-menu.html class="mobile-relative" %}
 </div>

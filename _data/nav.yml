@@ -4,7 +4,7 @@ cover:
 - {name: For Co-Op & Condo-Boards}
 - {name: For Building Owners}
 - {name: For Homeowners}
-- {name: Peace of Mind}
+- {name: About}
 
 
 menu:
@@ -13,6 +13,6 @@ menu:
 - {name: Renovation & Capital Improvement, topic: 'renovation'}
 - {name: Building Management Support, topic: 'building-management'}
 - {name: Zoning & Code Consultation, topic: 'zoning'}
-- {name: Peace of Mind, topic: 'peace'}
-- {name: Contact, topic: 'contact'}
+- {name: About, topic: 'peace'}
+- {name: Social & Contact, topic: 'social'}
 
