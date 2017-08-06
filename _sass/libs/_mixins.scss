@@ -85,7 +85,7 @@ $breakpoints: (
             @if $contact {
                 width: 16px;
                 height: 16px;
-                border: 1px solid _palette(_katz-brand) !important;
+                border: 1px solid _palette(_katz-secondary) !important;
             }
 
         }

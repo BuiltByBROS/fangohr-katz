@@ -169,8 +169,8 @@ function goToAbout(e) {
             $.fn.fullpage.destroy('all');
 
             initFP('.' + topicClass);
-            $.fn.fullpage.silentMoveTo(2);
-            $.fn.fullpage.moveTo(4);
+            $.fn.fullpage.silentMoveTo(0); // this is 2 when cover
+            $.fn.fullpage.moveTo(2); // This is 4 when cover
             $('#topicClassName').val('.' + topicClass);
 
         }, 300);
