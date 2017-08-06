@@ -1,0 +1,85 @@
+<!-- <div class="topic topic-hidden topic-{{include.topic-class}} cover">{% include 1_cover.html %}</div> -->
+<div class="topic topic-hidden topic-{{include.topic-class}} menu">{% include 2_menu.html %}</div>
+{% assign cover_img = site.url | append: site.baseurl | append: site.data.peace.image %}
+
+{% include _parts/topic-cover.html 
+    topic-class=include.topic-class
+    title=site.data.peace.titleAlt
+    image= cover_img
+%}
+
+{% include _parts/content-two-cols.html 
+    topic-class=include.topic-class
+    data=site.data.peace
+%}
+
+<!--
+<div class="topic topic-{{include.topic-class}} container-fluid">
+        <h2 class="font-title hidden-xs-down">{{site.data.peace.aboutTitle}}</h2>
+        <div class="text-content">
+            <div class="row">
+                <div class="col-sm-6">
+                    <p class="font-content p-content">{{ {site.data.peace.aboutContent |trans|nl2br }}</p>
+                </div>
+            </div>
+        </div>
+        {% include _parts/nav-down.html %}
+</div>
+-->
+
+<div class="topic topic-{{include.topic-class}} container-fluid">
+    
+    <h2 class="font-title hidden-sm-down">{{site.data.peace.teamTitle}}</h2>
+    <div class="text-content">
+            <div class="row">
+                
+                {% for item in site.data.peace.team reversed %}
+                <div class="col-20p">
+                    <!-- With cover this is moveTo(6 instead of moveTo(5 -->
+                    <div class="grid-item" onclick="moveTo(5, {{ forloop.index }},'.overlap-gallery', true )">
+                        <span class="gray-filter"></span>
+                        <img src="{{ site.url }}{{ site.baseurl }}/assets/images/team/{{{item.thumbnail}}" alt="{item.info}}" class="img-fluid property-image">
+                        <div class="detail-tooltip">{{item.name}}<div class="detail-tooltip-location">{{item.position}}</div></div>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+
+             <!-- Slideshow -->
+    </div>
+     {% include _parts/back-to-menu.html class="mobile-relative" %}
+</div>
+
+<div class="topic topic-{{include.topic-class}} container-fluid gallery-container ignore">
+
+    <div class="overlap-gallery  gallery-with-padding container-fluid hidden">  
+        {% for item in site.data.peace.team reversed %}
+            <div class="slide">
+                <div class="text-content full-height  scrollable">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            
+                            <div>
+                                <img src="{{ site.url }}{{ site.baseurl }}/assets/images/team/{{{item.thumbnail}}" alt="{item.name}}" class="team-mobile-img img-fluid hidden-sm-up float-right">
+                                <h2 class="font-title-detail">{{item.name}}</h2>
+                                <h4 class="font-subtitle-detail">{{item.position}}</h4>
+                                <p class="font-content-detail">{{item.bio}}</p>
+                            </div>
+                            
+                        </div>
+                        <div class="col-sm-6">
+                            <img src="{{ site.url }}{{ site.baseurl }}/assets/images/team/{{{item.thumbnail}}" alt="{item.name}}" class="img-fluid hidden-xs-down team-desktop-img float-right">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+        
+    </div>
+    <!-- Width cover this is closeGallery(this, 5) -->
+    <div class="galleryCloseBtn navigation-down text-center" onclick="closeGallery(this, 4)">
+        <span  class="back-to-menu black">
+            <img src="{{ site.url }}{{ site.baseurl }}/assets/images/close-white.svg" alt="Menu">
+        </span>
+    </div>
+</div>
