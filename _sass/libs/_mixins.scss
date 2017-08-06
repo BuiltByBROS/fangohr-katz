@@ -80,12 +80,12 @@ $breakpoints: (
     [type="checkbox"] {
         &:not(:checked)+label:before,
         &:checked+label:before {
-            border: 3px solid $primary-color;
+            border: 3px solid _palette(_katz-brand);
             background: $secondary-color;
             @if $contact {
                 width: 16px;
                 height: 16px;
-                border: 1px solid $primary-color !important;
+                border: 1px solid _palette(_katz-brand) !important;
             }
 
         }
@@ -101,7 +101,7 @@ $breakpoints: (
             @if $primary-color == _palette(_katz-secondary) {
                 background: url("../assets/images/white-check.svg") no-repeat center center;
             } @else {
-                background: url("../assets/images/gray-check.svg") no-repeat center center;
+                background: url("../assets/images/blue-check.svg") no-repeat center center;
             }
             
             background-size: contain;
