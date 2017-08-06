@@ -4,7 +4,7 @@
 {% assign cover_class_secondary = include.topic-class | append: ' secondary' %}
 
 {% include _parts/topic-cover.html 
-    topic-class= cover_class_secondary
+    topic-class= include.topic-class
     title=site.data.renovation.title
     image= cover_img
 %}
