@@ -227,7 +227,7 @@ topicClass = typeof topicClass !== 'undefined' ? topicClass : '.topic';
 
         //Scrolling
         css3: true,
-        scrollingSpeed: 700,
+        scrollingSpeed: 500,
         autoScrolling: true,
         fitToSection: true,
         fitToSectionDelay: 1000,
