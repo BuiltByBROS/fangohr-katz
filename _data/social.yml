@@ -9,5 +9,6 @@ networks:
 
 - {icon: 'twitter-icon', name: 'Twitter', url: 'https://twitter.com/katzarch'}
 - {icon: 'facebook-icon', name: 'Facebook', url: 'https://www.facebook.com/Katz-Architecture-386321861439142/'}
+- {icon: 'medium-icon', name: 'Medium', url: 'https://medium.com/@katzarch'}
 # - {icon: 'instgram-icon', name: 'Instagram', url: 'http://twitter.com/'}
 - {icon: 'linkedin-icon', name: 'LinkedIn', url: 'https://www.linkedin.com/company/katz-architecture-and-project-management'}
