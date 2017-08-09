@@ -47,8 +47,8 @@ $(document).ready(function () {
             $.fn.fullpage.destroy('all');
 
             initFP('.' + topicClass);
-            $.fn.fullpage.silentMoveTo(1); // With cover this is 2
-            $.fn.fullpage.moveTo(2); // With cover this is 3
+            $.fn.fullpage.silentMoveTo(1); // With cover is 2
+            $.fn.fullpage.moveTo(2);// With cover is 3
             $('#topicClassName').val('.' + topicClass);
 
         }, 300);
@@ -123,9 +123,6 @@ function closeGallery(e, backToSection) {
 
 
 function moveTo(sectionNumber, slideNumber, slideContainer, silent) {
-    console.log('sectionNumber', sectionNumber);
-    console.log('slideNumber', slideNumber);
-
     var topicClass = $('#topicClassName').val();
     var secN = parseInt(sectionNumber, 10);
     var sldN = parseInt(slideNumber, 10) - 1;
@@ -172,8 +169,8 @@ function goToAbout(e) {
             $.fn.fullpage.destroy('all');
 
             initFP('.' + topicClass);
-            $.fn.fullpage.silentMoveTo(1); // With cover this is 2
-            $.fn.fullpage.moveTo(3); // With cover this is 4
+            $.fn.fullpage.silentMoveTo(0); // this is 2 when cover
+            $.fn.fullpage.moveTo(2); // This is 4 when cover
             $('#topicClassName').val('.' + topicClass);
 
         }, 300);
@@ -220,7 +217,7 @@ topicClass = typeof topicClass !== 'undefined' ? topicClass : '.topic';
         //Navigation
         // menu: '#menu',
         lockAnchors: true,
-        anchors: ['home'],// with cover is ['intro','home']  //, 'building-interior', 'renovation', 'building-management'
+        anchors: ['home'],//,  anchors: ['intro', 'home'] 'building-interior', 'renovation', 'building-management'
         navigation: false,
         navigationPosition: 'right',
         navigationTooltips: ['firstSlide', 'secondSlide'],
@@ -230,7 +227,7 @@ topicClass = typeof topicClass !== 'undefined' ? topicClass : '.topic';
 
         //Scrolling
         css3: true,
-        scrollingSpeed: 700,
+        scrollingSpeed: 500,
         autoScrolling: true,
         fitToSection: true,
         fitToSectionDelay: 1000,
