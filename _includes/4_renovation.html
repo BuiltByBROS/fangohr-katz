@@ -1,12 +1,14 @@
 <!-- <div class="topic topic-hidden topic-{{include.topic-class}} cover">{% include 1_cover.html %}</div> -->
 <div class="topic topic-hidden topic-{{include.topic-class}} menu">{% include 2_menu.html %}</div>
 {% assign cover_img = site.url | append: site.baseurl | append: site.data.renovation.image %}
+{% assign cover_img_xs = site.url | append: site.baseurl | append: site.data.renovation.imageXS %}
 {% assign cover_class_secondary = include.topic-class | append: ' secondary' %}
 
 {% include _parts/topic-cover.html 
     topic-class= include.topic-class
     title=site.data.renovation.title
     image= cover_img
+    imageXS= cover_img_xs
 %}
 
 {% include _parts/content-two-cols.html 

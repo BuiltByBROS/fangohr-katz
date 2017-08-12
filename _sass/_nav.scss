@@ -166,7 +166,7 @@
     bottom: 30px;
     left: 15px;
     display: block;
-    z-index: 999999999999999;
+    z-index: 999999999999990;
   }
 
   .info-credits{
@@ -236,7 +236,14 @@ div.iScrollIndicator{
   }
 }
 .topic{
-    
+    .topic-cover-bkg{
+      height: 100vh;
+      width: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      background-size: cover!important;
+    }
     .forceVisible{
       @include respond-to(md) {
           opacity: 1!important;

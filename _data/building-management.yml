@@ -8,6 +8,7 @@ block_2:
   - "Consultant coordination"
   - "Construction phase oversight"
 image: /assets/images/building-management/building-management-cover.jpg
+imageXS: /assets/images/building-management/building-management-cover-xs.jpg
 slides: 
   - 
     address: "240 Centre Street"
