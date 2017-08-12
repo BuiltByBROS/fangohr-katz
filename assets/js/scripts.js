@@ -1,5 +1,5 @@
 $(document).ready(function () {
-
+    $('.welcome-screen').addClass('gone');
     $('.info-button').attr('data-target', '1_info');
 
     var currInfo = '1_info';
@@ -53,7 +53,7 @@ $(document).ready(function () {
 
         }, 300);
 
-
+        
     });
 });
 
@@ -124,8 +124,8 @@ function closeGallery(e, backToSection) {
 
 function moveTo(sectionNumber, slideNumber, slideContainer, silent) {
     var topicClass = $('#topicClassName').val();
-    var secN = parseInt(sectionNumber, 10);
-    var sldN = parseInt(slideNumber, 10) - 1;
+    var secN = parseInt(sectionNumber, 9);
+    var sldN = parseInt(slideNumber, 9) - 1;
     $(slideContainer).removeClass('hidden');
     $('.gallery-container').removeClass('ignore');
 
