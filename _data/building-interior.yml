@@ -9,6 +9,8 @@ block_2:
   - "Retail shops"
   - "Common space design"
 image: /assets/images/building-interior/building-cover.jpg
+imageXS: /assets/images/building-interior/building-cover-xs.jpg
+
 slides: 
   - 
     credits: "MEP Engineer: Mottola Rini Engineers PC <br /><br /> Structural Engineer: FMO Engineering PC <br /><br /> Builder: James M Barb Construction Inc."
